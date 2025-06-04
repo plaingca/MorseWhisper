@@ -1,0 +1,34 @@
+{
+  "num_samples": 1000,
+  "sample_rate": 16000,
+  "contest_types": [
+    "CQWW",
+    "CQWPX",
+    "ARRLDX",
+    "FIELD_DAY",
+    "NAQP",
+    "SWEEPSTAKES",
+    "SPRINT",
+    "IARU"
+  ],
+  "wpm_range": [
+    15,
+    40
+  ],
+  "conditions": [
+    "clean",
+    "contest_good",
+    "contest_moderate",
+    "contest_poor",
+    "dx_expedition"
+  ],
+  "duration_stats": {
+    "short": 215,
+    "medium": 306,
+    "long": 316,
+    "very_long": 163
+  },
+  "avg_duration": 35.328794125,
+  "max_duration": 120.0,
+  "creation_date": "2025-06-04T12:59:01.932474"
+}

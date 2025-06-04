@@ -1,0 +1,11 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration
+68,morse_000068.wav,CQ CQ CQ DE WV5IF WV5IF WV5IF,IARU,cq,39,contest_moderate,11.3228125
+58,morse_000058.wav,KO?,CQWPX,partial,23,contest_moderate,3.0098125
+9,morse_000009.wav,AG1S1 3A IN,FIELD_DAY,exchange,25,dx_expedition,6.608
+20,morse_000020.wav,JK2VYF 579 9T295,CQWPX,exchange,26,contest_moderate,11.6909375
+36,morse_000036.wav,TEST GU8CZB GU8CZB TEST GU8CZB 6614 FRANK PA NT4OUF 4T745 JOHN VA GL TU QRZ? NT4OUF,SPRINT,qso,32,contest_good,37.6356875
+0,morse_000000.wav,CQ TEST CQ TEST DE KY8Q KY8Q K KY8Q 599 5604 JJ5DW R 599 4678 TU TU QRZ? JJ5DW,CQWPX,qso,20,contest_good,62.3461875
+78,morse_000078.wav,CQ CQ CQ DE M07Y0 M07Y0 M07Y0 M07Y0 RO5XSD 599 4 NR? NR? M07Y0 RO5XSD 599 4 TU 599 4 M07Y0 TU QRZ? RO5XSD,CQWW,qso,34,clean,53.3965
+5,morse_000005.wav,VK3XA KEN MO,NAQP,exchange,39,clean,4.6535625
+33,morse_000033.wav,RR0DN FRANK ?,NAQP,partial,16,contest_moderate,12.1328125
+69,morse_000069.wav,CQ CQ CQ DE KA2UF KA2UF KA2UF,ARRLDX,cq,30,contest_poor,15.4346875

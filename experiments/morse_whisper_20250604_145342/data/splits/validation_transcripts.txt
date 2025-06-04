@@ -1,0 +1,9 @@
+morse_000073.wav|M13GDE
+morse_000070.wav|DC? GW7OF 6252 JANE
+morse_000076.wav|CQ DE DR6FNX K DR6FNX
+morse_000051.wav|DC3EBO 599 64
+morse_000029.wav|AGN
+morse_000049.wav|CQ CQ CQ DE IQ1TDU IQ1TDU
+morse_000045.wav|JB5RXR
+morse_000092.wav|CQ CQ
+morse_000020.wav|TEST

@@ -1,0 +1,8 @@
+id,audio_file,reference,prediction,wer,cer,contest_type,wpm,condition,duration,used_chunking,is_noise_only
+20,morse_000020.wav,CQ DE NS9D K NS9D DE IK2ES 599 9 TU, වවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවව,1.0,3.142857142857143,IARU,37,clean,15.605875,False,False
+8,morse_000008.wav,I7?,I'll see you in the next video. Bye.,8.0,11.666666666666666,NAQP,29,clean,3.9636875,False,False
+18,morse_000018.wav,NL3ND 599 KW, ლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლ�,1.0,6.166666666666667,ARRLDX,27,contest_moderate,8.756625,False,False
+4,morse_000004.wav,CQ DE PR0DI5 K, ლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლ�,1.0,5.285714285714286,IARU,31,contest_poor,8.6861875,False,False
+1,morse_000001.wav,CQ DE, ლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლ�,1.0,14.8,CQWPX,16,dx_expedition,5.3779375,False,False
+49,morse_000049.wav,, ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ ლ �,1.0,1.0,NOISE,0,contest_good,6.8459375,False,True
+43,morse_000043.wav,73,I'll see you in the next video. Bye!,8.0,18.0,CQWPX,21,dx_expedition,3.690375,False,False

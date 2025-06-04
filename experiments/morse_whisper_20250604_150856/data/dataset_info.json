@@ -1,0 +1,31 @@
+{
+  "num_samples": 100,
+  "num_morse_samples": 95,
+  "num_noise_samples": 5,
+  "sample_rate": 16000,
+  "max_duration": 28.0,
+  "contest_types": [
+    "CQWW",
+    "CQWPX",
+    "ARRLDX",
+    "FIELD_DAY",
+    "NAQP",
+    "SWEEPSTAKES",
+    "SPRINT",
+    "IARU"
+  ],
+  "wpm_range": [
+    15,
+    40
+  ],
+  "conditions": [
+    "clean",
+    "contest_good",
+    "contest_moderate",
+    "contest_poor",
+    "dx_expedition"
+  ],
+  "avg_duration": 8.870246875,
+  "num_workers": 8,
+  "creation_date": "2025-06-04T15:09:03.563425"
+}

@@ -1,0 +1,1799 @@
+{
+  "overall_wer": 0.9364589759407773,
+  "overall_cer": 0.863005943956977,
+  "num_samples": 104,
+  "error_analysis": {
+    "by_contest_type": {
+      "CQWPX": {
+        "avg_wer": 0.9347053695620126,
+        "count": 17
+      },
+      "NAQP": {
+        "avg_wer": 1.0082257293161168,
+        "count": 17
+      },
+      "CQWW": {
+        "avg_wer": 0.9458129853299732,
+        "count": 16
+      },
+      "ARRLDX": {
+        "avg_wer": 0.981677716802778,
+        "count": 19
+      },
+      "SPRINT": {
+        "avg_wer": 0.9298696880226792,
+        "count": 14
+      },
+      "FIELD_DAY": {
+        "avg_wer": 0.9281828672894504,
+        "count": 11
+      },
+      "IARU": {
+        "avg_wer": 0.9081632653061226,
+        "count": 7
+      },
+      "SWEEPSTAKES": {
+        "avg_wer": 0.9366925064599484,
+        "count": 3
+      }
+    },
+    "by_wpm": {
+      "25-29": {
+        "avg_wer": 0.9337680048373278,
+        "count": 20
+      },
+      "20-24": {
+        "avg_wer": 0.9387028769841269,
+        "count": 16
+      },
+      "35-39": {
+        "avg_wer": 0.9365136678906568,
+        "count": 23
+      },
+      "30-34": {
+        "avg_wer": 0.9706648219100326,
+        "count": 27
+      },
+      "15-19": {
+        "avg_wer": 0.9857481324134876,
+        "count": 13
+      },
+      "40-44": {
+        "avg_wer": 0.9906048423121595,
+        "count": 5
+      }
+    },
+    "by_condition": {
+      "contest_good": {
+        "avg_wer": 0.9171077275650784,
+        "count": 19
+      },
+      "dx_expedition": {
+        "avg_wer": 0.9883798333626709,
+        "count": 19
+      },
+      "contest_moderate": {
+        "avg_wer": 0.9563673041933912,
+        "count": 24
+      },
+      "contest_poor": {
+        "avg_wer": 0.9387233130967968,
+        "count": 21
+      },
+      "clean": {
+        "avg_wer": 0.9685643848182549,
+        "count": 21
+      }
+    },
+    "by_duration": {
+      "30-59s": {
+        "avg_wer": 0.9288775401517669,
+        "count": 33
+      },
+      "0-29s": {
+        "avg_wer": 0.9733246486024264,
+        "count": 54
+      },
+      "60-89s": {
+        "avg_wer": 0.939666737623901,
+        "count": 16
+      },
+      "90-119s": {
+        "avg_wer": 0.9629629629629629,
+        "count": 1
+      }
+    },
+    "callsign_errors": [
+      {
+        "reference": "JS1V4",
+        "prediction": "?"
+      },
+      {
+        "reference": "4T909",
+        "prediction": "?"
+      },
+      {
+        "reference": "JS1V4",
+        "prediction": "?"
+      },
+      {
+        "reference": "JS1V4",
+        "prediction": "?"
+      },
+      {
+        "reference": "4T909",
+        "prediction": "AGNG"
+      },
+      {
+        "reference": "EE4TF",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "EE4TF",
+        "prediction": "DE"
+      },
+      {
+        "reference": "EE4TF",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "IK8YUD",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "GJ4AOH",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "GJ4AOH",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "GJ4AOH",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "DE1BMD",
+        "prediction": "B"
+      },
+      {
+        "reference": "DB9QH",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "DB9QH",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DB9QH",
+        "prediction": "DE"
+      },
+      {
+        "reference": "NR4P",
+        "prediction": "DE"
+      },
+      {
+        "reference": "NR4P",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "KY3XSN",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "KY3XSN",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "RZ5NCG",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "RZ5NCG",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "RZ5NCG",
+        "prediction": "DE"
+      },
+      {
+        "reference": "I5YSJ",
+        "prediction": "TEST?"
+      },
+      {
+        "reference": "RZ5NCG",
+        "prediction": "R"
+      },
+      {
+        "reference": "PV5LG",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "PV5LG",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "PV5LG",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "VK9XM",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VK9XM",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "I7VQ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "I7VQ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "I7VQ",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "WN2H",
+        "prediction": "DE"
+      },
+      {
+        "reference": "I7VQ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "WN2H",
+        "prediction": "DE"
+      },
+      {
+        "reference": "WN2H",
+        "prediction": "QQ"
+      },
+      {
+        "reference": "VO5WM5",
+        "prediction": "KS?"
+      },
+      {
+        "reference": "VO5WM5",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VO5WM5",
+        "prediction": "KS?"
+      },
+      {
+        "reference": "VO5WM5",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "VE6YC",
+        "prediction": "KS?"
+      },
+      {
+        "reference": "VO5WM5",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VE6YC",
+        "prediction": "KS?"
+      },
+      {
+        "reference": "IQ7SES",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "IQ7SES",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "IQ7SES",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JR0RQA",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JR0RQA",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JR0RQA",
+        "prediction": "GJ9ZWG"
+      },
+      {
+        "reference": "DG2UI",
+        "prediction": "569"
+      },
+      {
+        "reference": "DB8UO",
+        "prediction": "K"
+      },
+      {
+        "reference": "DB8UO",
+        "prediction": "VY9RW"
+      },
+      {
+        "reference": "DB8UO",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "KS9YI",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "5T031",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "M62VZN",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "M62VZN",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "M62VZN",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "M62VZN",
+        "prediction": "DE"
+      },
+      {
+        "reference": "NN9G",
+        "prediction": "GJ5WG"
+      },
+      {
+        "reference": "M51IZK",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "M51IZK",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "M51IZK",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JC9WG",
+        "prediction": "TEST?"
+      },
+      {
+        "reference": "M37PRY",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "M37PRY",
+        "prediction": "DE"
+      },
+      {
+        "reference": "M37PRY",
+        "prediction": "GJ5RW"
+      },
+      {
+        "reference": "RY3TDF",
+        "prediction": "GJ5RW"
+      },
+      {
+        "reference": "JB7ITM",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JN6KJL",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JN6KJL",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JN6KJL",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DC5OKO",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "8T536",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JN6KJL",
+        "prediction": "WG9XB"
+      },
+      {
+        "reference": "DC5OKO",
+        "prediction": "Q"
+      },
+      {
+        "reference": "KU5P",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "KU5P",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "KU5P",
+        "prediction": "K"
+      },
+      {
+        "reference": "F4QP",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "F4QP",
+        "prediction": "TU"
+      },
+      {
+        "reference": "F4QP",
+        "prediction": "DL?"
+      },
+      {
+        "reference": "DO5RNL",
+        "prediction": "KD"
+      },
+      {
+        "reference": "KJ9F",
+        "prediction": "VA9ZWK"
+      },
+      {
+        "reference": "KJ9F",
+        "prediction": "VA9ZWK"
+      },
+      {
+        "reference": "KJ9F",
+        "prediction": "K"
+      },
+      {
+        "reference": "KJ9F",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "WB6B",
+        "prediction": "WXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      {
+        "reference": "DG8OKX",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "DG8OKX",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DG8OKX",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "RN4NGT",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "3T415",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "RN4NGT",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "DM8SI",
+        "prediction": "K"
+      },
+      {
+        "reference": "DM8SI",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "DM8SI",
+        "prediction": "DE"
+      },
+      {
+        "reference": "WQ2QTR",
+        "prediction": "VA9KW"
+      },
+      {
+        "reference": "1A",
+        "prediction": "K"
+      },
+      {
+        "reference": "JK2DBN",
+        "prediction": "VA9XW"
+      },
+      {
+        "reference": "JK2DBN",
+        "prediction": "VA9XW"
+      },
+      {
+        "reference": "JK2DBN",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "PP2MR",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "PP2MR",
+        "prediction": "WG9XL"
+      },
+      {
+        "reference": "JB1BGA",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JB1BGA",
+        "prediction": "JR?"
+      },
+      {
+        "reference": "JB1BGA",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "JB1BGA",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "RG4PMD",
+        "prediction": "DQ9?"
+      },
+      {
+        "reference": "RG4PMD",
+        "prediction": "DQ9?"
+      },
+      {
+        "reference": "RG4PMD",
+        "prediction": "DE"
+      },
+      {
+        "reference": "RG4PMD",
+        "prediction": "DQ9?"
+      },
+      {
+        "reference": "RG4PMD",
+        "prediction": "DQ9?"
+      },
+      {
+        "reference": "RG4PMD",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DK3KEL",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DK3KEL",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DK3KEL",
+        "prediction": "?"
+      },
+      {
+        "reference": "WM0ZF",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "WM0ZF",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "WM0ZF",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "GI5XF",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JH7AON",
+        "prediction": "WG9XB"
+      },
+      {
+        "reference": "JH7AON",
+        "prediction": "WG9XB"
+      },
+      {
+        "reference": "JH7AON",
+        "prediction": "Q"
+      },
+      {
+        "reference": "EC7OS5",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "EC7OS5",
+        "prediction": "DE"
+      },
+      {
+        "reference": "EC7OS5",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "KU7BIP",
+        "prediction": "DE"
+      },
+      {
+        "reference": "KU7BIP",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "EG7TNA",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "5A",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "4A",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "EG7TNA",
+        "prediction": "KW5?"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "LW9JN"
+      },
+      {
+        "reference": "M6GD",
+        "prediction": "KW5?"
+      },
+      {
+        "reference": "EG8YCQ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "EG8YCQ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "EG8YCQ",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "WB8I",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "9T635",
+        "prediction": "DE"
+      },
+      {
+        "reference": "WB8I",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JP7HVR",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "JP7HVR",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "JP7HVR",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "JP7HVR",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "I5UH",
+        "prediction": "?"
+      },
+      {
+        "reference": "I5UH",
+        "prediction": "?"
+      },
+      {
+        "reference": "I5UH",
+        "prediction": "?"
+      },
+      {
+        "reference": "I5UH",
+        "prediction": "?"
+      },
+      {
+        "reference": "IW4LXO",
+        "prediction": "?"
+      },
+      {
+        "reference": "IW4LXO",
+        "prediction": "?"
+      },
+      {
+        "reference": "IW4LXO",
+        "prediction": "?"
+      },
+      {
+        "reference": "NY2A",
+        "prediction": "KWZ?"
+      },
+      {
+        "reference": "NY2A",
+        "prediction": "KWZ?"
+      },
+      {
+        "reference": "NY2A",
+        "prediction": "KWZ?"
+      },
+      {
+        "reference": "NY2A",
+        "prediction": "KWZ?"
+      },
+      {
+        "reference": "DF2LR",
+        "prediction": "KWZ?"
+      },
+      {
+        "reference": "JH4I?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JH4I?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JH4I?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JH4I?",
+        "prediction": "?"
+      },
+      {
+        "reference": "KT9R",
+        "prediction": "?"
+      },
+      {
+        "reference": "KT9R",
+        "prediction": "?"
+      },
+      {
+        "reference": "JG9KL",
+        "prediction": "?"
+      },
+      {
+        "reference": "JG9KL",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "JG9KL",
+        "prediction": "2A"
+      },
+      {
+        "reference": "DK5GMH",
+        "prediction": "?"
+      },
+      {
+        "reference": "DK5GMH",
+        "prediction": "?"
+      },
+      {
+        "reference": "PX6WD",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "PX6WD",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "ZW4EBN",
+        "prediction": "?"
+      },
+      {
+        "reference": "ZW4EBN",
+        "prediction": "?"
+      },
+      {
+        "reference": "ZW4EBN",
+        "prediction": "?"
+      },
+      {
+        "reference": "DL4WW",
+        "prediction": "?"
+      },
+      {
+        "reference": "EF9UW?",
+        "prediction": "?"
+      },
+      {
+        "reference": "EF9UW?",
+        "prediction": "?"
+      },
+      {
+        "reference": "F7AU8",
+        "prediction": "?"
+      },
+      {
+        "reference": "F7AU8",
+        "prediction": "?"
+      },
+      {
+        "reference": "F7AU8",
+        "prediction": "?"
+      },
+      {
+        "reference": "F7AU8",
+        "prediction": "?"
+      },
+      {
+        "reference": "IZ8KAW",
+        "prediction": "??"
+      },
+      {
+        "reference": "IZ8KAW",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "VO2DSN",
+        "prediction": "?"
+      },
+      {
+        "reference": "VO2DSN",
+        "prediction": "?"
+      },
+      {
+        "reference": "RT0F?",
+        "prediction": "?"
+      },
+      {
+        "reference": "NP1JQ",
+        "prediction": "?"
+      },
+      {
+        "reference": "1A",
+        "prediction": "?"
+      },
+      {
+        "reference": "JN8JP",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "JN8JP",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "JN8JP",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "K4O",
+        "prediction": "DE0?"
+      },
+      {
+        "reference": "6T012",
+        "prediction": "DE0?"
+      },
+      {
+        "reference": "K4O",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JN8JP",
+        "prediction": "GJ5GSG"
+      },
+      {
+        "reference": "JN8JP",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JN8JP",
+        "prediction": "DE"
+      },
+      {
+        "reference": "K4O",
+        "prediction": "DE"
+      },
+      {
+        "reference": "6T012",
+        "prediction": "GJ5GSG"
+      },
+      {
+        "reference": "EB7ID",
+        "prediction": "VE4JN"
+      },
+      {
+        "reference": "EB7ID",
+        "prediction": "K"
+      },
+      {
+        "reference": "EB7ID",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "VY7PRN",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JL1QL",
+        "prediction": "WG9?"
+      },
+      {
+        "reference": "JL1QL",
+        "prediction": "KW9?"
+      },
+      {
+        "reference": "JL1QL",
+        "prediction": "WG9?"
+      },
+      {
+        "reference": "3A",
+        "prediction": "NN?"
+      },
+      {
+        "reference": "LW7W5",
+        "prediction": "WX?"
+      },
+      {
+        "reference": "JL1QL",
+        "prediction": "WX?"
+      },
+      {
+        "reference": "3A",
+        "prediction": "WX?"
+      },
+      {
+        "reference": "PR5RS",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "PR5RS",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "PR5RS",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "JL1LDZ",
+        "prediction": "KW?"
+      },
+      {
+        "reference": "JL1LDZ",
+        "prediction": "KW9WD"
+      },
+      {
+        "reference": "JL1LDZ",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "M59RS",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "7T236",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "DE"
+      },
+      {
+        "reference": "F1YB",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "4A",
+        "prediction": "DE"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "DE"
+      },
+      {
+        "reference": "F1YB",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "4A",
+        "prediction": "DE"
+      },
+      {
+        "reference": "1E",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "F1YB",
+        "prediction": "KW5?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "KW5?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "WV?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "WV?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "WV?"
+      },
+      {
+        "reference": "F1YB",
+        "prediction": "KW5?"
+      },
+      {
+        "reference": "4A",
+        "prediction": "WV?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "EG9KR",
+        "prediction": "KW5W?"
+      },
+      {
+        "reference": "F1YB",
+        "prediction": "KW5W?"
+      },
+      {
+        "reference": "JL7EG",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JL7EG",
+        "prediction": "NQ9X?"
+      },
+      {
+        "reference": "JL7EG",
+        "prediction": "NQ9X?"
+      },
+      {
+        "reference": "DD2ESF",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "DD2ESF",
+        "prediction": "K"
+      },
+      {
+        "reference": "DD2ESF",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "LW9QF",
+        "prediction": "DE"
+      },
+      {
+        "reference": "8T819",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "DD2ESF",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JJ5RDJ",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "JJ5RDJ",
+        "prediction": "K"
+      },
+      {
+        "reference": "JJ5RDJ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DK9QN",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "DE"
+      },
+      {
+        "reference": "RH9XM6",
+        "prediction": "DE"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "DE"
+      },
+      {
+        "reference": "RH9XM6",
+        "prediction": "DQ?"
+      },
+      {
+        "reference": "RH9XM6",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "DQ?"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "DE"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "RH9XM6",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "NZ7E",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "RH9XM6",
+        "prediction": "DE"
+      },
+      {
+        "reference": "RH9XM6",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "DI2BV",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DI2BV",
+        "prediction": "DQ1F?"
+      },
+      {
+        "reference": "DI2BV",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JS4RA",
+        "prediction": "DQ1F?"
+      },
+      {
+        "reference": "JS4RA",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DI2BV",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "DI2BV",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DI2BV",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "JS4RA",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JS4RA",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VO8VD",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "VO8VD",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "VO8VD",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "VO8VD",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "DL8ZL",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "VO8VD",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "DL8ZL",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DF3I9",
+        "prediction": "VA9ZWK"
+      },
+      {
+        "reference": "DF3I9",
+        "prediction": "K"
+      },
+      {
+        "reference": "DF3I9",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "KF7FAW",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "KF7FA?",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "KF7FA?",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "DF3I9",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "KF7FAW",
+        "prediction": "Q"
+      },
+      {
+        "reference": "DE5ZO9",
+        "prediction": "\u2026"
+      },
+      {
+        "reference": "DE5ZO9",
+        "prediction": "\u2026"
+      },
+      {
+        "reference": "DE5ZO9",
+        "prediction": "\u2026"
+      },
+      {
+        "reference": "DE5ZO9",
+        "prediction": "\u2026"
+      },
+      {
+        "reference": "F9FBL",
+        "prediction": "\u2026"
+      },
+      {
+        "reference": "F9FBL",
+        "prediction": "GJ9GWN"
+      },
+      {
+        "reference": "NU0A",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "NU0A",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "NU0A",
+        "prediction": "DE"
+      },
+      {
+        "reference": "NU0A",
+        "prediction": "IU?"
+      },
+      {
+        "reference": "DN1IU",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "NU0A",
+        "prediction": "IU?"
+      },
+      {
+        "reference": "DN1IU",
+        "prediction": "BZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+      }
+    ],
+    "number_errors": [
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "QT"
+      },
+      {
+        "reference": "34",
+        "prediction": "WXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      {
+        "reference": "599",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "32",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "15",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "599",
+        "prediction": "EG8JWN"
+      },
+      {
+        "reference": "100",
+        "prediction": "EG8JWN"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "100",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "599",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "599",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "599",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "599",
+        "prediction": "JS?"
+      },
+      {
+        "reference": "1500",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "1500",
+        "prediction": "KS?"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "1500",
+        "prediction": "KS?"
+      },
+      {
+        "reference": "599",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "1",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "1",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "4687",
+        "prediction": "GJ9ZWG"
+      },
+      {
+        "reference": "599",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "599",
+        "prediction": "GJ9GWG"
+      },
+      {
+        "reference": "589",
+        "prediction": "569"
+      },
+      {
+        "reference": "599",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "599",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "6815",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "40",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "7963",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "64",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "84",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "599",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "2428",
+        "prediction": "DE"
+      },
+      {
+        "reference": "1802",
+        "prediction": "JI?"
+      },
+      {
+        "reference": "1259",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "599",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "9801",
+        "prediction": "DE"
+      },
+      {
+        "reference": "3182",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "100",
+        "prediction": "WG?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "50",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "50",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "63",
+        "prediction": "DE0?"
+      },
+      {
+        "reference": "7065",
+        "prediction": "DE0?"
+      },
+      {
+        "reference": "86",
+        "prediction": "DE0?"
+      },
+      {
+        "reference": "73",
+        "prediction": "DE0?"
+      },
+      {
+        "reference": "63",
+        "prediction": "GJ5GSG"
+      },
+      {
+        "reference": "7065",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "86",
+        "prediction": "GJ5GSGS"
+      },
+      {
+        "reference": "73",
+        "prediction": "GJ5GSGS"
+      },
+      {
+        "reference": "1679",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "74",
+        "prediction": "K"
+      },
+      {
+        "reference": "599",
+        "prediction": "NQ9X?"
+      },
+      {
+        "reference": "38",
+        "prediction": "NQ9X?"
+      },
+      {
+        "reference": "599",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "599",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "6052",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "73",
+        "prediction": "VE6JN"
+      },
+      {
+        "reference": "599",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "599",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "100",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "DQ1F?"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "100",
+        "prediction": "IU?"
+      },
+      {
+        "reference": "599",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "599",
+        "prediction": "VY9RW"
+      },
+      {
+        "reference": "1500",
+        "prediction": "VY9RW"
+      },
+      {
+        "reference": "73",
+        "prediction": "K"
+      },
+      {
+        "reference": "599",
+        "prediction": "DE"
+      },
+      {
+        "reference": "18",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "599",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "18",
+        "prediction": "GJ9GW"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "32",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "IU?"
+      },
+      {
+        "reference": "37",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "599",
+        "prediction": "IU?"
+      },
+      {
+        "reference": "37",
+        "prediction": "NQ1ZW"
+      }
+    ],
+    "common_substitutions": {
+      "TEST \u2192 CQ": 25,
+      "CQ \u2192 DE": 22,
+      "CQ \u2192 ?": 18,
+      "DE \u2192 ?": 14,
+      "599 \u2192 DE": 12,
+      "TEST \u2192 ?": 12,
+      "QRZ? \u2192 ?": 11,
+      "599 \u2192 ?": 8,
+      "K \u2192 DE": 8,
+      "DE \u2192 VE6JN": 8,
+      "DE \u2192 JS?": 7,
+      "DE \u2192 QRZ?": 7,
+      "599 \u2192 QRZ?": 7,
+      "GI? \u2192 ?": 7,
+      "TU \u2192 DE": 6,
+      "K \u2192 CQ": 6,
+      "TEST \u2192 DE": 6,
+      "TEST \u2192 VE6JN": 5,
+      "K \u2192 QRZ?": 5,
+      "599 \u2192 CQ": 5
+    }
+  },
+  "chunking_analysis": {
+    "chunked": {
+      "count": 50,
+      "avg_wer": 0.9330117917990738,
+      "avg_duration": 54.756641249999994
+    },
+    "non_chunked": {
+      "count": 54,
+      "avg_wer": 0.9733246486024264,
+      "avg_duration": 16.963178240740742
+    },
+    "by_duration": {
+      "0-30s": {
+        "count": 54,
+        "avg_wer": 0.9733246486024264
+      },
+      "30-60s": {
+        "count": 33,
+        "avg_wer": 0.9288775401517669
+      },
+      "60-90s": {
+        "count": 16,
+        "avg_wer": 0.939666737623901
+      },
+      "90-\u221es": {
+        "count": 1,
+        "avg_wer": 0.9629629629629629
+      }
+    }
+  }
+}

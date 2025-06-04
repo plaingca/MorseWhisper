@@ -1,0 +1,11 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration
+47,morse_000047.wav,TEST NT6BL NT6BL TEST NT6BL EG1MZZ 7A NM QRZ? DE NT6BL NT6BL EG1MZZ 7A NM 2A IL GL 73 GL EG1MZZ TEST,FIELD_DAY,qso,27,contest_good,50.9134375
+44,morse_000044.wav,CQ CQ CQ DE DF8GA DF8GA DF8GA,SPRINT,cq,22,clean,20.5029375
+48,morse_000048.wav,WB0?,SPRINT,partial,16,clean,5.0511875
+11,morse_000011.wav,JI4FED 7912 A 83 OH,SWEEPSTAKES,exchange,25,contest_poor,12.7741875
+45,morse_000045.wav,CQ TEST CQ TEST DE EC8NK EC8NK K,CQWPX,cq,29,contest_moderate,14.4891875
+63,morse_000063.wav,M07AN 599 38,CQWW,exchange,19,contest_poor,11.6413125
+9,morse_000009.wav,CQ CQ CQ DE JD3SF JD3SF JD3SF,IARU,cq,18,contest_poor,25.1864375
+38,morse_000038.wav,DI5GB 8279 PAUL MI,SPRINT,exchange,26,contest_poor,10.9134375
+99,morse_000099.wav,JS0RQ 599 4677,CQWPX,exchange,18,dx_expedition,14.454875
+27,morse_000027.wav,EB5QMG 599 3825,CQWPX,exchange,29,clean,8.9931875

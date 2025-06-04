@@ -1,0 +1,10 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration,is_noise_only
+73,morse_000073.wav,M13GDE,SWEEPSTAKES,partial,32,contest_moderate,2.98125,False
+70,morse_000070.wav,DC? GW7OF 6252 JANE,SPRINT,multi_tx,24,contest_good,14.3545625,False
+76,morse_000076.wav,CQ DE DR6FNX K DR6FNX,ARRLDX,partial_qso,37,contest_poor,10.2010625,False
+51,morse_000051.wav,DC3EBO 599 64,IARU,exchange,34,contest_moderate,7.9370625,False
+29,morse_000029.wav,AGN,SWEEPSTAKES,short,38,contest_moderate,2.64125,False
+49,morse_000049.wav,CQ CQ CQ DE IQ1TDU IQ1TDU,NAQP,qso,29,contest_poor,14.935375,False
+45,morse_000045.wav,JB5RXR,CQWPX,partial,21,contest_poor,4.5625625,False
+92,morse_000092.wav,CQ CQ,CQWPX,partial_qso,15,contest_poor,7.0506875,False
+20,morse_000020.wav,TEST,IARU,partial_qso,17,contest_poor,3.6086875,False

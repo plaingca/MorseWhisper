@@ -1,0 +1,145 @@
+{
+  "overall_wer": 1.8181818181818181,
+  "overall_cer": 155.44827586206895,
+  "noise_accuracy": 0.0,
+  "num_samples": 11,
+  "num_morse_samples": 10,
+  "num_noise_samples": 1,
+  "error_analysis": {
+    "by_contest_type": {
+      "ARRLDX": {
+        "avg_wer": 1.125,
+        "count": 4
+      },
+      "SPRINT": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "NOISE": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "CQWW": {
+        "avg_wer": 1.0,
+        "count": 2
+      },
+      "FIELD_DAY": {
+        "avg_wer": 27.0,
+        "count": 1
+      },
+      "IARU": {
+        "avg_wer": 1.0,
+        "count": 2
+      }
+    },
+    "by_wpm": {
+      "20-24": {
+        "avg_wer": 1.1666666666666667,
+        "count": 3
+      },
+      "15-19": {
+        "avg_wer": 7.5,
+        "count": 4
+      },
+      "0-4": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "30-34": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "35-39": {
+        "avg_wer": 1.0,
+        "count": 2
+      }
+    },
+    "by_condition": {
+      "contest_moderate": {
+        "avg_wer": 1.125,
+        "count": 4
+      },
+      "contest_good": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "contest_poor": {
+        "avg_wer": 1.0,
+        "count": 4
+      },
+      "dx_expedition": {
+        "avg_wer": 14.0,
+        "count": 2
+      }
+    },
+    "by_duration": {
+      "0-29s": {
+        "avg_wer": 3.409090909090909,
+        "count": 11
+      }
+    },
+    "callsign_errors": [
+      {
+        "reference": "DI5FD",
+        "prediction": "The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>"
+      },
+      {
+        "reference": "4A",
+        "prediction": "\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0"
+      },
+      {
+        "reference": "F8?",
+        "prediction": "<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>"
+      },
+      {
+        "reference": "WY5A",
+        "prediction": "<|noise|>"
+      },
+      {
+        "reference": "IK0XV",
+        "prediction": "The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>"
+      }
+    ],
+    "number_errors": [
+      {
+        "reference": "599",
+        "prediction": "The<|noise|><|noise|>"
+      }
+    ],
+    "common_substitutions": {
+      "CQ \u2192 <|noise|>": 6,
+      "DE \u2192 The<|noise|><|noise|>": 2,
+      "TEST \u2192 The<|noise|><|noise|>": 1,
+      "CQ \u2192 The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "ARRLDX \u2192 The<|noise|><|noise|>": 1,
+      "CQ \u2192 The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "CQ \u2192 <|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "DI5FD \u2192 The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "4A \u2192 \u0dc0\u0dc0\u0dc0\u0dc0\u0dc0": 1,
+      "DE \u2192 The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "F8? \u2192 <|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "WY5A \u2192 <|noise|>": 1,
+      "599 \u2192 The<|noise|><|noise|>": 1,
+      "? \u2192 The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1,
+      "IK0XV \u2192 The<|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|><|noise|>": 1
+    }
+  },
+  "chunking_analysis": {
+    "chunked": {
+      "count": 0,
+      "avg_wer": 0,
+      "avg_duration": 0
+    },
+    "non_chunked": {
+      "count": 11,
+      "avg_wer": 3.409090909090909,
+      "avg_duration": 8.69865909090909
+    },
+    "by_duration": {
+      "0-30s": {
+        "count": 11,
+        "avg_wer": 3.409090909090909
+      }
+    }
+  }
+}

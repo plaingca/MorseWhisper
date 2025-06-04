@@ -1,0 +1,5 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration,is_noise_only
+3,morse_000003.wav,CQ,SWEEPSTAKES,cq,24,contest_poor,2.5700625,False
+46,morse_000046.wav,CQ DE EB2NU,SPRINT,qso,15,clean,11.72675,False
+27,morse_000027.wav,TEST,SPRINT,cq,39,contest_poor,3.4365625,False
+39,morse_000039.wav,TEST DC3WD DC3WD TEST,FIELD_DAY,partial_qso,27,dx_expedition,11.2064375,False

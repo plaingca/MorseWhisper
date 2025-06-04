@@ -1,0 +1,26 @@
+{
+  "num_samples": 5000,
+  "sample_rate": 16000,
+  "contest_types": [
+    "CQWW",
+    "CQWPX",
+    "ARRLDX",
+    "FIELD_DAY",
+    "NAQP",
+    "SWEEPSTAKES",
+    "SPRINT",
+    "IARU"
+  ],
+  "wpm_range": [
+    15,
+    40
+  ],
+  "conditions": [
+    "clean",
+    "contest_good",
+    "contest_moderate",
+    "contest_poor",
+    "dx_expedition"
+  ],
+  "creation_date": "2025-06-03T11:43:51.602897"
+}

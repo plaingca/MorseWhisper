@@ -1,0 +1,301 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration,is_noise_only
+1069,morse_001069.wav,VA2IUZ 9862,SPRINT,exchange,35,contest_moderate,7.32025,False
+1498,morse_001498.wav,CQ DE JM7HN K JM7HN,SPRINT,partial_qso,28,dx_expedition,11.4025625,False
+1623,morse_001623.wav,CQ TEST CQ TEST DE JR1HJZ,IARU,multi_tx,32,dx_expedition,12.2660625,False
+237,morse_000237.wav,TEST AZ8TS AZ8TS TEST,SPRINT,partial_qso,26,clean,10.0943125,False
+2678,morse_002678.wav,CQ CQ CQ DE,IARU,partial_qso,25,contest_good,8.851875,False
+2894,morse_002894.wav,,NOISE,noise_only,0,contest_good,8.0103125,True
+2035,morse_002035.wav,AGN,CQWPX,short,33,contest_moderate,3.2298125,False
+2568,morse_002568.wav,F8V?,CQWPX,partial,17,dx_expedition,5.309625,False
+2292,morse_002292.wav,CQ CQ CQ,SWEEPSTAKES,partial_qso,15,contest_moderate,10.3309375,False
+995,morse_000995.wav,CQ DE,IARU,partial_qso,15,clean,6.299875,False
+2424,morse_002424.wav,VO1RR 599 360,CQWPX,partial_qso,35,contest_good,8.9135,False
+657,morse_000657.wav,PQ5HLT,NAQP,exchange,32,contest_poor,4.582375,False
+2084,morse_002084.wav,CQ DE,ARRLDX,partial_qso,17,clean,6.2059375,False
+1141,morse_001141.wav,AK8WOO,SWEEPSTAKES,partial,16,contest_good,4.9364375,False
+131,morse_000131.wav,CQ CQ CQ,FIELD_DAY,partial_qso,21,contest_moderate,9.0615625,False
+50,morse_000050.wav,F5G4 DR0GV3 5180,SPRINT,partial_qso,29,contest_poor,11.271875,False
+935,morse_000935.wav,JR1KMF DE M69HG 2524,SPRINT,partial_qso,32,contest_good,11.223875,False
+2343,morse_002343.wav,CQ DE DO2C2 K,FIELD_DAY,partial_qso,22,dx_expedition,11.601875,False
+1613,morse_001613.wav,DC9NW,NAQP,short,24,clean,4.25475,False
+2045,morse_002045.wav,RC2CY?,ARRLDX,partial,34,contest_good,5.0185,False
+1031,morse_001031.wav,CQ CQ,NAQP,partial_qso,15,clean,7.0775625,False
+1667,morse_001667.wav,TEST GW7VI,IARU,cq,30,contest_good,5.5226875,False
+191,morse_000191.wav,599,CQWPX,short,20,contest_poor,4.897375,False
+1096,morse_001096.wav,TU,NAQP,short,15,clean,2.707125,False
+279,morse_000279.wav,JE7MB 5T373 ?,SPRINT,partial,36,dx_expedition,7.4560625,False
+15,morse_000015.wav,DE8P?,CQWPX,partial,24,contest_moderate,5.08525,False
+1834,morse_001834.wav,ND5CW KG0T6 599 CO,ARRLDX,partial_qso,39,clean,9.457125,False
+1450,morse_001450.wav,JC3NDZ,NAQP,short,15,clean,4.6129375,False
+1485,morse_001485.wav,TEST,SWEEPSTAKES,cq,15,contest_moderate,4.032125,False
+2493,morse_002493.wav,JM8EZK,CQWPX,partial,24,contest_moderate,5.4571875,False
+798,morse_000798.wav,AY9CIS 599 83,IARU,partial_qso,20,clean,12.9578125,False
+1284,morse_001284.wav,TEST JA2MU,SWEEPSTAKES,partial_qso,30,contest_good,5.5115,False
+341,morse_000341.wav,CQ DE M16RI K,IARU,partial_qso,40,contest_good,5.947125,False
+2551,morse_002551.wav,IU6XZ PETE IA DD2UO4,NAQP,partial_qso,35,contest_good,9.4253125,False
+1173,morse_001173.wav,CQ DE DD2MS,SPRINT,partial_qso,20,dx_expedition,9.4435,False
+2783,morse_002783.wav,CQ DE JO1VUS,SWEEPSTAKES,partial_qso,24,contest_moderate,9.58725,False
+2850,morse_002850.wav,,NOISE,noise_only,0,contest_poor,15.9396875,True
+491,morse_000491.wav,RB6YXQ,NAQP,partial_qso,17,contest_good,8.1185,False
+715,morse_000715.wav,IW8QLM DE,IARU,partial_qso,16,contest_good,9.6544375,False
+2544,morse_002544.wav,CQ,IARU,cq,33,contest_moderate,2.7944375,False
+1311,morse_001311.wav,VO3RI 1A,FIELD_DAY,partial_qso,25,dx_expedition,6.784375,False
+1425,morse_001425.wav,KQ7YK,IARU,exchange,21,clean,6.640625,False
+1227,morse_001227.wav,KN?,IARU,partial,23,contest_good,4.1273125,False
+968,morse_000968.wav,CQ TEST CQ TEST DE DB4EP,SPRINT,qso,28,clean,12.2695625,False
+2629,morse_002629.wav,ZY8LF NX6T 599 45,IARU,partial_qso,40,contest_poor,8.420125,False
+1721,morse_001721.wav,GI8ZNV 3A,FIELD_DAY,partial_qso,20,dx_expedition,8.334125,False
+741,morse_000741.wav,AGN,NAQP,short,24,dx_expedition,3.500625,False
+2056,morse_002056.wav,GM9JN0,NAQP,partial,17,contest_poor,4.5544375,False
+180,morse_000180.wav,QRZ? RW9OS 599 1825,CQWPX,multi_tx,36,dx_expedition,11.2465,False
+622,morse_000622.wav,TEST AE0G AE0G,SPRINT,partial_qso,23,clean,9.0766875,False
+2210,morse_002210.wav,DB8EWO,SPRINT,short,22,contest_good,5.7468125,False
+1734,morse_001734.wav,EF7CK DE IW3KS 569 948 K,CQWPX,partial_qso,37,clean,11.764875,False
+34,morse_000034.wav,CQ DE,CQWPX,partial_qso,17,contest_moderate,6.015,False
+87,morse_000087.wav,RK2XBY DE LR6YL 599 6 K,IARU,qso,30,dx_expedition,13.8340625,False
+302,morse_000302.wav,NA9?,FIELD_DAY,partial,15,contest_poor,6.016,False
+1149,morse_001149.wav,TEST DD9XE,CQWW,cq,33,contest_good,5.2759375,False
+1547,morse_001547.wav,JP0BLL JC0DMO 5903 JIM FL,SPRINT,qso,36,contest_good,13.6033125,False
+2880,morse_002880.wav,,NOISE,noise_only,0,clean,19.96425,True
+428,morse_000428.wav,JA0KQP DICK,NAQP,partial_qso,16,contest_poor,12.272125,False
+2281,morse_002281.wav,IU8?,IARU,partial,32,contest_poor,3.7303125,False
+442,morse_000442.wav,AGN,SPRINT,short,34,contest_good,2.8025625,False
+1236,morse_001236.wav,EA9HCN,NAQP,exchange,27,contest_moderate,5.019125,False
+2499,morse_002499.wav,DI4SG,IARU,exchange,20,clean,5.2933125,False
+1944,morse_001944.wav,73 JM3IZA 599 62 CQ,IARU,multi_tx,23,dx_expedition,16.75075,False
+108,morse_000108.wav,JQ6JZR,SPRINT,exchange,36,contest_good,4.2905,False
+1270,morse_001270.wav,CQ DE IQ1AH K IQ1AH,CQWPX,qso,22,contest_good,14.608125,False
+1140,morse_001140.wav,DB7P?,NAQP,partial,30,contest_poor,3.0978125,False
+2939,morse_002939.wav,,NOISE,noise_only,0,dx_expedition,5.572625,True
+770,morse_000770.wav,GJ0QTL KF8DBW 3D OK,FIELD_DAY,qso,24,clean,13.86575,False
+1622,morse_001622.wav,CQ TEST CQ,SWEEPSTAKES,partial_qso,27,contest_poor,6.66025,False
+70,morse_000070.wav,VE2RX KEN MD AY2TN,NAQP,partial_qso,40,contest_moderate,7.8449375,False
+2442,morse_002442.wav,73,SWEEPSTAKES,short,38,contest_good,3.2080625,False
+2198,morse_002198.wav,CQ CQ,SWEEPSTAKES,cq,23,contest_moderate,5.7345625,False
+1822,morse_001822.wav,JC3EA6 DP5RQL 599 30,CQWW,partial_qso,38,clean,10.3569375,False
+395,morse_000395.wav,CQ CQ CQ DE,FIELD_DAY,partial_qso,38,contest_good,6.4468125,False
+2385,morse_002385.wav,AF3R DE,NAQP,partial_qso,21,clean,5.469375,False
+1595,morse_001595.wav,CQ DE K3Q,FIELD_DAY,partial_qso,20,dx_expedition,8.7438125,False
+2026,morse_002026.wav,CQ DE GU6DMN K,SPRINT,qso,18,contest_poor,12.6584375,False
+2189,morse_002189.wav,JP3HYO,SWEEPSTAKES,partial_qso,21,dx_expedition,6.5598125,False
+2197,morse_002197.wav,I5ZRW,SWEEPSTAKES,exchange,24,contest_good,4.13275,False
+2243,morse_002243.wav,CQ CQ CQ,FIELD_DAY,partial_qso,28,contest_good,6.8514375,False
+574,morse_000574.wav,TEST,FIELD_DAY,cq,28,dx_expedition,2.6403125,False
+1426,morse_001426.wav,UG0SD 599 ?,IARU,partial,39,dx_expedition,6.6805,False
+235,morse_000235.wav,TEST JA2RGC JA2RGC TEST,SPRINT,partial_qso,39,dx_expedition,9.2223125,False
+515,morse_000515.wav,DM4KRK TEST,IARU,short,26,dx_expedition,6.522375,False
+200,morse_000200.wav,CQ CQ,FIELD_DAY,cq,16,clean,6.810375,False
+1478,morse_001478.wav,CQ CQ,NAQP,partial_qso,16,clean,7.012875,False
+2239,morse_002239.wav,CQ DE JK0IA K,IARU,qso,15,contest_moderate,15.30525,False
+2800,morse_002800.wav,AD3RK,SPRINT,exchange,20,contest_poor,5.355375,False
+886,morse_000886.wav,CQ TEST CQ,CQWPX,partial_qso,22,contest_moderate,7.7475,False
+1015,morse_001015.wav,QRZ?,FIELD_DAY,short,20,dx_expedition,5.8453125,False
+511,morse_000511.wav,CQ,CQWW,cq,16,contest_good,4.69625,False
+58,morse_000058.wav,CQ DE M13VUU,NAQP,partial_qso,26,clean,9.05125,False
+2801,morse_002801.wav,CQ DE IZ3BTF K,SPRINT,partial_qso,27,clean,9.0623125,False
+166,morse_000166.wav,M4ZC DE WW4BGX,NAQP,partial_qso,32,contest_moderate,8.5933125,False
+2764,morse_002764.wav,VA3VNF DE VK1RV 4A,FIELD_DAY,partial_qso,35,dx_expedition,8.70975,False
+2430,morse_002430.wav,CQ DE,SPRINT,partial_qso,17,contest_poor,5.9860625,False
+1728,morse_001728.wav,TEST JC2VLX JC2VLX,SPRINT,multi_tx,22,dx_expedition,13.7060625,False
+1646,morse_001646.wav,NV3YPS,IARU,short,25,contest_moderate,5.267125,False
+1688,morse_001688.wav,CQ DE,IARU,partial_qso,17,dx_expedition,6.3720625,False
+1658,morse_001658.wav,73,SPRINT,short,32,contest_good,2.6825,False
+1480,morse_001480.wav,JF5JS 3A SB IW0BQ,FIELD_DAY,partial_qso,39,clean,8.8573125,False
+2558,morse_002558.wav,EA9SC1,NAQP,exchange,20,clean,6.5528125,False
+751,morse_000751.wav,CQ DE F6DSV K,SPRINT,partial_qso,38,contest_good,6.661375,False
+711,morse_000711.wav,CQ DE IK9PDQ K IK9PDQ DE,ARRLDX,partial_qso,38,contest_poor,10.916,False
+1584,morse_001584.wav,CQ DE,SWEEPSTAKES,partial_qso,15,contest_good,6.823875,False
+1824,morse_001824.wav,JI9JZ,CQWW,short,21,contest_good,6.0051875,False
+2997,morse_002997.wav,,NOISE,noise_only,0,clean,6.9845625,True
+2685,morse_002685.wav,CQ CQ,SWEEPSTAKES,cq,37,contest_moderate,3.9045625,False
+1350,morse_001350.wav,I2VBY 559,IARU,exchange,38,clean,4.8420625,False
+851,morse_000851.wav,CQ DE GI0WK7 K GI0WK7,IARU,partial_qso,40,dx_expedition,10.2929375,False
+1475,morse_001475.wav,TEST,CQWPX,cq,25,contest_moderate,3.1685625,False
+2446,morse_002446.wav,CQ CQ CQ DE KM1HM,CQWW,qso,25,contest_good,12.615625,False
+1439,morse_001439.wav,AJ1?,SPRINT,partial,20,dx_expedition,5.7375,False
+2573,morse_002573.wav,JG2ZF 8526 A 25,SWEEPSTAKES,partial_qso,28,clean,11.04175,False
+2754,morse_002754.wav,IW2VIP DE WN8IR 599 1 K,CQWW,partial_qso,36,clean,10.8953125,False
+840,morse_000840.wav,CQ CQ CQ DE 2E5FXO,NAQP,partial_qso,26,contest_moderate,12.3066875,False
+2364,morse_002364.wav,CQ CQWW CQ CQWW,CQWW,partial_qso,35,contest_moderate,8.6505,False
+1045,morse_001045.wav,VE1JA 599 83,IARU,partial_qso,32,contest_good,8.3531875,False
+2369,morse_002369.wav,TEST VY3N5,CQWW,partial_qso,16,contest_moderate,9.57075,False
+2879,morse_002879.wav,,NOISE,noise_only,0,contest_poor,20.7469375,True
+2009,morse_002009.wav,TEST WP4VLL WP4VLL TEST,ARRLDX,partial_qso,37,dx_expedition,9.6580625,False
+1206,morse_001206.wav,CQ DE DP6BV K,SWEEPSTAKES,partial_qso,37,contest_moderate,6.8083125,False
+2336,morse_002336.wav,CQ,FIELD_DAY,cq,23,contest_poor,3.369875,False
+414,morse_000414.wav,VK5LCSK,NAQP,short,36,dx_expedition,4.2695,False
+2409,morse_002409.wav,JK3ONA,IARU,short,40,contest_moderate,3.4556875,False
+1488,morse_001488.wav,QRZ?,FIELD_DAY,short,19,dx_expedition,5.62575,False
+461,morse_000461.wav,QRZ?,CQWPX,short,37,clean,4.259375,False
+1340,morse_001340.wav,CQ DE,CQWW,partial_qso,18,dx_expedition,5.5673125,False
+78,morse_000078.wav,CQ DE IW2ZQY K,SWEEPSTAKES,partial_qso,36,contest_poor,8.469375,False
+400,morse_000400.wav,CQ,CQWW,cq,18,contest_good,4.6635,False
+356,morse_000356.wav,CQ TEST CQ,CQWW,partial_qso,15,dx_expedition,11.1616875,False
+1647,morse_001647.wav,CQ TEST CQ,FIELD_DAY,partial_qso,16,dx_expedition,10.6479375,False
+2923,morse_002923.wav,,NOISE,noise_only,0,contest_good,16.81125,True
+2848,morse_002848.wav,CQ DE JB5OZC K,NAQP,partial_qso,25,contest_poor,9.8939375,False
+486,morse_000486.wav,AGN,CQWPX,short,27,contest_moderate,2.6691875,False
+1247,morse_001247.wav,EC9EPZ DE DE6DD KATE,NAQP,partial_qso,37,clean,8.732625,False
+895,morse_000895.wav,CQ FIELD_DAY CQ,FIELD_DAY,partial_qso,32,dx_expedition,8.1918125,False
+1322,morse_001322.wav,CQ TEST CQ TEST,CQWW,partial_qso,32,contest_poor,7.7798125,False
+2934,morse_002934.wav,,NOISE,noise_only,0,contest_good,10.4868125,True
+1887,morse_001887.wav,CQ DE DK0WAT K DK0WAT,FIELD_DAY,partial_qso,35,contest_good,9.9216875,False
+712,morse_000712.wav,CQ CQ CQ DE 2E2GL,NAQP,qso,19,clean,15.7465,False
+541,morse_000541.wav,TU,CQWPX,short,39,contest_poor,2.1645,False
+151,morse_000151.wav,LQ4LJ,ARRLDX,exchange,40,dx_expedition,3.753125,False
+1371,morse_001371.wav,CQ TEST,CQWPX,cq,19,dx_expedition,6.7095,False
+285,morse_000285.wav,IQ1MLU M04LIX 599,CQWPX,qso,20,contest_poor,16.1800625,False
+164,morse_000164.wav,F1MR TEST,FIELD_DAY,short,38,contest_poor,4.99425,False
+649,morse_000649.wav,CQ DE NZ6N7,IARU,partial_qso,19,contest_moderate,10.759625,False
+1796,morse_001796.wav,PY8XT6 DE KN1I 6T361,SPRINT,partial_qso,32,contest_poor,11.7784375,False
+1061,morse_001061.wav,CQ CQ CQ,SPRINT,partial_qso,18,dx_expedition,9.4745,False
+2152,morse_002152.wav,DE2EQO DE 2E2HLM,CQWPX,partial_qso,39,contest_good,7.1134375,False
+607,morse_000607.wav,JQ2CCL,CQWPX,exchange,18,contest_moderate,7.458125,False
+162,morse_000162.wav,JH7EF 1D,FIELD_DAY,exchange,25,contest_moderate,7.076,False
+1472,morse_001472.wav,CQ DE GW4DY K,CQWW,partial_qso,27,contest_good,8.631,False
+1364,morse_001364.wav,VK1WQD TEST,ARRLDX,short,32,clean,6.831,False
+1126,morse_001126.wav,DO2SB,IARU,short,28,contest_poor,3.7844375,False
+1332,morse_001332.wav,DL7?,NAQP,partial,24,clean,5.02975,False
+2386,morse_002386.wav,JM3ZD,FIELD_DAY,partial,37,clean,3.9754375,False
+1432,morse_001432.wav,CQ DE,FIELD_DAY,partial_qso,15,contest_moderate,6.5571875,False
+272,morse_000272.wav,73 KN?,SPRINT,multi_tx,30,contest_poor,5.233,False
+2624,morse_002624.wav,M60EO KATE ME,NAQP,exchange,37,contest_good,6.8470625,False
+2699,morse_002699.wav,NJ9AS DE,SPRINT,partial_qso,16,contest_moderate,8.472875,False
+1402,morse_001402.wav,TEST,SPRINT,cq,28,contest_poor,2.7615,False
+57,morse_000057.wav,CQ CQWPX CQ CQWPX,CQWPX,partial_qso,34,contest_good,11.244125,False
+1705,morse_001705.wav,JN2GBH DE,CQWW,partial_qso,29,contest_good,6.2135,False
+2871,morse_002871.wav,,NOISE,noise_only,0,contest_poor,22.7954375,True
+2465,morse_002465.wav,LP1UB,ARRLDX,partial_qso,21,dx_expedition,5.4410625,False
+308,morse_000308.wav,EA8HCR 599 MN KV9J,ARRLDX,partial_qso,31,clean,10.5375625,False
+1455,morse_001455.wav,WO1SI 599,CQWPX,partial,27,dx_expedition,6.4965625,False
+2759,morse_002759.wav,IK0GVG JJ7KYB 7T954,SWEEPSTAKES,partial_qso,32,contest_moderate,10.9765625,False
+2341,morse_002341.wav,CQ TEST,FIELD_DAY,partial_qso,16,clean,7.1455,False
+39,morse_000039.wav,CQ TEST CQ TEST DE,CQWW,partial_qso,31,contest_poor,8.7031875,False
+2349,morse_002349.wav,DQ7RB 5680 BILL LA GM9K? CQ,SPRINT,multi_tx,28,contest_poor,17.1665,False
+1743,morse_001743.wav,IK5FEA,CQWPX,exchange,19,contest_moderate,4.31675,False
+60,morse_000060.wav,CQ ARRLDX CQ,ARRLDX,partial_qso,25,clean,9.3454375,False
+1240,morse_001240.wav,UE7AZF DE VA5ZPI,NAQP,partial_qso,24,dx_expedition,10.6159375,False
+498,morse_000498.wav,JJ4YO M16FG 599 KW,ARRLDX,partial_qso,23,contest_moderate,16.2285625,False
+2667,morse_002667.wav,JJ0GQF DE G6YOE 599 1500 K,ARRLDX,partial_qso,36,dx_expedition,13.8781875,False
+2081,morse_002081.wav,IU7CP,CQWW,short,38,dx_expedition,3.059875,False
+2478,morse_002478.wav,CQ TEST CQ TEST,SWEEPSTAKES,multi_tx,22,contest_good,9.240875,False
+2030,morse_002030.wav,CQ TEST CQ,SPRINT,partial_qso,22,contest_poor,7.971125,False
+494,morse_000494.wav,TU,SWEEPSTAKES,short,24,contest_good,2.6770625,False
+1092,morse_001092.wav,TEST M19RGB M19RGB TEST AGN,CQWPX,multi_tx,36,clean,12.0635,False
+1021,morse_001021.wav,CQ DE DJ0N4 K,ARRLDX,partial_qso,33,clean,7.9466875,False
+22,morse_000022.wav,TEST JM3ABF,SWEEPSTAKES,partial_qso,17,dx_expedition,9.4559375,False
+1924,morse_001924.wav,NC9PT 4674 A 94 NNY M9BL,SWEEPSTAKES,partial_qso,37,contest_good,12.748625,False
+1759,morse_001759.wav,DN8XMW DE,ARRLDX,partial_qso,27,contest_poor,6.3755625,False
+1142,morse_001142.wav,CQ DE VA5TU,FIELD_DAY,partial_qso,19,contest_moderate,9.1900625,False
+1920,morse_001920.wav,TEST,SWEEPSTAKES,cq,39,contest_poor,2.5820625,False
+966,morse_000966.wav,CQ TEST CQ TEST DE,SPRINT,partial_qso,38,contest_poor,6.602875,False
+2322,morse_002322.wav,CQ CQ,ARRLDX,cq,34,clean,4.33575,False
+2789,morse_002789.wav,F1NTD,FIELD_DAY,exchange,19,clean,5.4874375,False
+1260,morse_001260.wav,CQ DE VK6O1 K VK6O1 DE,CQWW,qso,29,contest_good,13.5246875,False
+823,morse_000823.wav,CQ TEST,SWEEPSTAKES,partial_qso,20,contest_moderate,5.3674375,False
+391,morse_000391.wav,NL8E?,SPRINT,partial,39,contest_good,4.2178125,False
+1009,morse_001009.wav,TEST JR2ER JR2ER,IARU,partial_qso,32,clean,8.157625,False
+2727,morse_002727.wav,CQ DE,FIELD_DAY,partial_qso,21,contest_poor,4.662875,False
+305,morse_000305.wav,TEST WC6ZX WC6ZX TEST,FIELD_DAY,partial_qso,30,contest_moderate,10.279875,False
+2138,morse_002138.wav,CQ DE,ARRLDX,partial_qso,24,contest_moderate,4.529625,False
+205,morse_000205.wav,CQ DE,ARRLDX,partial_qso,15,contest_good,6.212625,False
+615,morse_000615.wav,VA7UA 599 9339 IQ1UUH,CQWPX,qso,28,dx_expedition,14.2258125,False
+732,morse_000732.wav,CQ DE IW0I9,ARRLDX,partial_qso,18,dx_expedition,11.358625,False
+2321,morse_002321.wav,PW7Z8 RX7T6 599,ARRLDX,partial_qso,34,dx_expedition,9.5431875,False
+1981,morse_001981.wav,TEST,FIELD_DAY,partial_qso,17,contest_good,2.9616875,False
+2989,morse_002989.wav,,NOISE,noise_only,0,clean,9.1766875,True
+1392,morse_001392.wav,AJ5F WE2R,CQWW,partial_qso,21,contest_moderate,7.3825625,False
+1847,morse_001847.wav,DO? RM6DI 599 10,IARU,multi_tx,16,contest_poor,19.05125,False
+2174,morse_002174.wav,F4SO 8785 LYNN TX KY1R,SPRINT,qso,30,contest_good,13.313625,False
+877,morse_000877.wav,F6SN WZ6SD RAY CT,NAQP,partial_qso,37,clean,7.9608125,False
+1266,morse_001266.wav,CQ DE GJ8XMA,IARU,partial_qso,30,dx_expedition,7.8486875,False
+244,morse_000244.wav,CQ DE DE8KP,SPRINT,partial_qso,18,dx_expedition,9.933,False
+1213,morse_001213.wav,CQ CQ CQ DE EH1HSI,FIELD_DAY,partial_qso,33,clean,10.3698125,False
+54,morse_000054.wav,CQ CQ CQ DE EC5QL EC5QL,CQWPX,partial_qso,39,dx_expedition,10.138875,False
+1201,morse_001201.wav,JL?,CQWW,partial,36,contest_poor,3.525,False
+981,morse_000981.wav,CQ DE,ARRLDX,partial_qso,24,contest_good,4.2923125,False
+2230,morse_002230.wav,CQ DE IZ4MT K,NAQP,partial_qso,40,contest_moderate,6.4308125,False
+8,morse_000008.wav,CQ CQ CQ,SPRINT,partial_qso,26,clean,7.7060625,False
+2620,morse_002620.wav,VY7FV DE RO1ZTG 599 90 K,IARU,qso,31,contest_good,14.643875,False
+2477,morse_002477.wav,KT4O 4935 ? CQ CQ CQ,SPRINT,multi_tx,23,contest_moderate,16.3855,False
+88,morse_000088.wav,73,IARU,short,23,contest_poor,3.7095625,False
+387,morse_000387.wav,JH7LFB DE,CQWW,partial_qso,15,clean,10.2730625,False
+228,morse_000228.wav,DM5AM DE JR5AA1 PETE MN K,NAQP,qso,31,contest_moderate,12.4374375,False
+1001,morse_001001.wav,CQ TEST CQ TEST,ARRLDX,partial_qso,35,dx_expedition,6.93975,False
+658,morse_000658.wav,ZW4VR,CQWW,partial,17,clean,5.503,False
+2901,morse_002901.wav,,NOISE,noise_only,0,contest_good,16.509,True
+979,morse_000979.wav,CQ CQ CQ DE,NAQP,partial_qso,37,clean,6.2969375,False
+922,morse_000922.wav,TEST LP4UYA LP4UYA TEST CQ TEST,SWEEPSTAKES,multi_tx,31,clean,13.6090625,False
+1497,morse_001497.wav,CQ DE AG4XQ K,NAQP,partial_qso,31,contest_moderate,8.2798125,False
+1786,morse_001786.wav,CQ TEST CQ TEST DE DA3AYV DA3AYV K,FIELD_DAY,qso,36,contest_poor,14.45075,False
+336,morse_000336.wav,QRZ?,CQWPX,short,17,contest_poor,5.7716875,False
+827,morse_000827.wav,JA7SIK VA7DXU 5D UT,FIELD_DAY,partial_qso,40,contest_moderate,8.4074375,False
+434,morse_000434.wav,CQ CQ CQ DE,IARU,qso,18,clean,10.8218125,False
+2113,morse_002113.wav,KA9BM FRANK ME,NAQP,exchange,35,dx_expedition,7.3078125,False
+2562,morse_002562.wav,CQ TEST CQ,NAQP,cq,39,dx_expedition,5.9538125,False
+1937,morse_001937.wav,CQ DE IZ3HEH K,SWEEPSTAKES,partial_qso,38,clean,7.1789375,False
+1663,morse_001663.wav,CQ NAQP CQ,NAQP,partial_qso,20,contest_moderate,9.242625,False
+404,morse_000404.wav,EF5OAS 599,ARRLDX,exchange,39,contest_moderate,6.2770625,False
+284,morse_000284.wav,TEST VY4PAH VY4PAH TEST,SPRINT,qso,40,clean,9.139875,False
+1132,morse_001132.wav,JF7TI 599 QRP VO2FCA,ARRLDX,partial_qso,29,contest_poor,13.1010625,False
+371,morse_000371.wav,QRZ?,ARRLDX,short,40,dx_expedition,3.82875,False
+443,morse_000443.wav,RR0MAO 599 ?,IARU,partial,34,contest_moderate,7.6900625,False
+290,morse_000290.wav,CQ CQWW CQ,CQWW,partial_qso,33,contest_moderate,6.7669375,False
+2491,morse_002491.wav,JO6FJC 8T412 CARL DE CQ TEST,SPRINT,multi_tx,29,contest_moderate,15.80275,False
+1610,morse_001610.wav,RW0NH 599 7T576 JG1GSL,CQWPX,partial_qso,38,contest_good,11.4993125,False
+643,morse_000643.wav,DH6GG 599,CQWW,exchange,22,dx_expedition,8.1709375,False
+1107,morse_001107.wav,CQ DE RM6V6 K RM6V6,NAQP,partial_qso,34,dx_expedition,10.396125,False
+2255,morse_002255.wav,CQ CQ CQ DE,NAQP,qso,19,contest_moderate,10.6261875,False
+2250,morse_002250.wav,CQ CQ CQ DE,ARRLDX,partial_qso,31,dx_expedition,7.62775,False
+2294,morse_002294.wav,ED3JB DE,ARRLDX,partial_qso,24,contest_good,6.5915625,False
+508,morse_000508.wav,VE0IQ M69TX,CQWW,partial_qso,30,contest_good,7.3843125,False
+2227,morse_002227.wav,JJ0HH,FIELD_DAY,exchange,29,contest_good,3.2623125,False
+920,morse_000920.wav,CQ CQ CQ DE,SPRINT,partial_qso,34,contest_moderate,6.7093125,False
+1084,morse_001084.wav,CQ CQ CQ DE,CQWW,partial_qso,27,dx_expedition,7.9950625,False
+1261,morse_001261.wav,CQ DE,CQWW,partial_qso,20,contest_good,5.2173125,False
+380,morse_000380.wav,TEST,IARU,cq,19,clean,2.6309375,False
+1604,morse_001604.wav,AY0QR,SWEEPSTAKES,short,36,clean,3.532,False
+2485,morse_002485.wav,CQ DE RR2K5 K,NAQP,qso,16,clean,13.983125,False
+2041,morse_002041.wav,CQ DE DH0TGG K,IARU,partial_qso,40,contest_good,7.1055,False
+2918,morse_002918.wav,,NOISE,noise_only,0,contest_moderate,23.8189375,True
+2857,morse_002857.wav,,NOISE,noise_only,0,contest_poor,7.72,True
+641,morse_000641.wav,WA7MDF,IARU,partial,24,contest_poor,4.3838125,False
+1390,morse_001390.wav,CQ DE EF2KH K EF2KH,CQWPX,qso,27,clean,12.0005625,False
+2994,morse_002994.wav,,NOISE,noise_only,0,contest_poor,13.7468125,True
+1955,morse_001955.wav,LS3HU,CQWPX,exchange,21,contest_good,4.749,False
+359,morse_000359.wav,TEST DC7MHW DC7MHW TEST,FIELD_DAY,partial_qso,38,contest_poor,9.83875,False
+2652,morse_002652.wav,I3LWD NE8QZM,CQWW,partial_qso,24,dx_expedition,9.0080625,False
+825,morse_000825.wav,NV6IHP,SPRINT,short,16,dx_expedition,6.1173125,False
+2782,morse_002782.wav,TU,FIELD_DAY,short,38,clean,1.5151875,False
+2774,morse_002774.wav,VK?,SPRINT,partial,31,contest_poor,3.62825,False
+21,morse_000021.wav,VA0YJO DE IQ9URZ PAT,NAQP,partial_qso,34,contest_good,10.4783125,False
+230,morse_000230.wav,TEST EG3TJK,IARU,partial_qso,15,contest_good,10.357125,False
+2363,morse_002363.wav,CQ TEST CQ,CQWW,qso,19,contest_moderate,9.6749375,False
+1886,morse_001886.wav,NW8NLS,SWEEPSTAKES,short,20,contest_moderate,5.344,False
+314,morse_000314.wav,TEST EA2LUN,SPRINT,partial_qso,19,contest_poor,7.9581875,False
+934,morse_000934.wav,LW7SJU PX9RIZ,SPRINT,partial_qso,31,contest_poor,8.51975,False
+1453,morse_001453.wav,JK? CQ CQ,SWEEPSTAKES,multi_tx,15,dx_expedition,11.787625,False
+451,morse_000451.wav,JS6DVM TEST,ARRLDX,short,38,contest_poor,5.016125,False
+1424,morse_001424.wav,AGN DC5NR LARRY SC,NAQP,multi_tx,20,contest_poor,13.715375,False
+453,morse_000453.wav,LW9UY 599 1500,ARRLDX,exchange,35,clean,9.2180625,False
+2437,morse_002437.wav,VY6ACD 599 6391 VK6DATV 599 2449,CQWPX,multi_tx,37,contest_good,16.8793125,False
+1725,morse_001725.wav,JC0SKD 599 ? F7VKM 599,ARRLDX,multi_tx,22,contest_moderate,20.00025,False
+1873,morse_001873.wav,CQ CQ CQ DE,CQWW,partial_qso,23,contest_good,9.145625,False
+1990,morse_001990.wav,JQ5LIW,CQWW,partial,26,contest_good,3.3574375,False
+633,morse_000633.wav,TEST VA7BAR VA7BAR TEST,IARU,partial_qso,32,dx_expedition,9.516,False
+422,morse_000422.wav,CQ DE JB9PA K JB9PA DE,IARU,partial_qso,40,contest_poor,9.431125,False
+598,morse_000598.wav,73 CQ TEST CQ TEST DE,ARRLDX,multi_tx,26,contest_poor,11.6304375,False
+1641,morse_001641.wav,LW2DFS DE KD9U 599 66 K,IARU,partial_qso,33,contest_poor,12.811,False
+393,morse_000393.wav,TEST DG1ZP2 DG1ZP2 TEST,ARRLDX,partial_qso,30,contest_poor,12.9341875,False
+1441,morse_001441.wav,CQ CQ CQ DE EH8GZA,SWEEPSTAKES,partial_qso,37,contest_moderate,9.087875,False
+1878,morse_001878.wav,CQ TEST,CQWW,partial_qso,23,clean,5.2530625,False
+1058,morse_001058.wav,TU IU3PGP KEN PA,NAQP,multi_tx,25,clean,10.4639375,False
+2946,morse_002946.wav,,NOISE,noise_only,0,clean,15.8888125,True
+653,morse_000653.wav,CQ CQ CQ DE WV2RRU,FIELD_DAY,multi_tx,24,dx_expedition,14.2758125,False
+101,morse_000101.wav,CQ DE IU7QE K,SWEEPSTAKES,partial_qso,34,dx_expedition,7.7635625,False
+710,morse_000710.wav,TU,CQWW,short,17,dx_expedition,2.5954375,False
+2252,morse_002252.wav,RP9REH,CQWW,partial_qso,15,contest_good,7.0891875,False
+1851,morse_001851.wav,JO3FJ 2169 RAY RI,SPRINT,partial_qso,40,dx_expedition,9.166875,False
+1137,morse_001137.wav,CQ DE WZ7TKZ K,NAQP,partial_qso,25,dx_expedition,10.049625,False
+2280,morse_002280.wav,JF0BMC 2852 B 36,SWEEPSTAKES,multi_tx,24,dx_expedition,13.4285,False
+2309,morse_002309.wav,TU,ARRLDX,short,25,contest_moderate,2.614625,False

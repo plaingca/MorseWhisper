@@ -1,0 +1,4 @@
+morse_000003.wav|CQ
+morse_000046.wav|CQ DE EB2NU
+morse_000027.wav|TEST
+morse_000039.wav|TEST DC3WD DC3WD TEST

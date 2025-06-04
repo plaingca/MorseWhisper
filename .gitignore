@@ -1,0 +1,197 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.manifest
+*.spec
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Machine Learning / Data Science
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.tfrecords
+*.ckpt
+*.ckpt.*
+checkpoint
+
+# Whisper/HuggingFace specific
+runs/
+*/runs/
+*.bin
+*.safetensors
+pytorch_model.bin
+model.safetensors
+tokenizer.json
+tokenizer_config.json
+config.json
+training_args.bin
+*.msgpack
+*.arrow
+
+# Models - only ignore training artifacts
+models/*/checkpoint*/
+models/*/runs/
+experiments/*/model*/
+experiments/*/model_*/
+
+# Datasets - only ignore audio files
+experiments/*/data/audio/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+# Keep test audio files in root
+!test_*.wav
+
+# Logs and outputs
+*.log
+logs/
+*/logs/
+tensorboard/
+wandb/
+mlruns/
+
+# Cache
+.cache/
+*.pyc
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+.ruff_cache/
+huggingface/
+
+# Generated visualizations
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+# Keep documentation images and test outputs
+!docs/images/*
+!test_noise_conditions.png
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+~*
+.~*
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Secrets
+.env.*
+!.env.example
+secrets/
+credentials/
+*.key
+*.pem
+api_keys.txt
+
+# Test outputs
+test_optimization/
+test_windows_fix/
+performance_comparison/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Performance profiling
+*.prof
+*.lprof
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+site/
+_build/
+
+# Package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Temporary documentation
+*_SUMMARY.md
+*_FIX_SUMMARY.md
+FIXED_TRAINING_COMMAND.md
+
+# Dataset generation outputs
+morse_dataset_*/
+whisper-morse*/
+
+# Keep important files
+!README.md
+!USAGE.md
+!requirements*.txt
+!docs/**/*.md 

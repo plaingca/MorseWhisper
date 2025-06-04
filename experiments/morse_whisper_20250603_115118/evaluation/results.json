@@ -1,0 +1,4103 @@
+{
+  "overall_wer": 0.8213173119715176,
+  "overall_cer": 1.0699282786885247,
+  "num_samples": 500,
+  "error_analysis": {
+    "by_contest_type": {
+      "FIELD_DAY": {
+        "avg_wer": 0.8664444728574704,
+        "count": 73
+      },
+      "CQWPX": {
+        "avg_wer": 0.9777594970003102,
+        "count": 69
+      },
+      "IARU": {
+        "avg_wer": 0.6613159565222705,
+        "count": 59
+      },
+      "CQWW": {
+        "avg_wer": 1.8305591819109106,
+        "count": 71
+      },
+      "SPRINT": {
+        "avg_wer": 0.8158392110025496,
+        "count": 59
+      },
+      "NAQP": {
+        "avg_wer": 0.8750044262582962,
+        "count": 55
+      },
+      "SWEEPSTAKES": {
+        "avg_wer": 0.8101022600154723,
+        "count": 56
+      },
+      "ARRLDX": {
+        "avg_wer": 0.6807668465835435,
+        "count": 58
+      }
+    },
+    "by_wpm": {
+      "25-29": {
+        "avg_wer": 1.5796905064524844,
+        "count": 99
+      },
+      "15-19": {
+        "avg_wer": 0.9855637538849319,
+        "count": 94
+      },
+      "30-34": {
+        "avg_wer": 0.7075008136118306,
+        "count": 93
+      },
+      "40-44": {
+        "avg_wer": 0.7533330457786979,
+        "count": 18
+      },
+      "35-39": {
+        "avg_wer": 0.6924193646411045,
+        "count": 98
+      },
+      "20-24": {
+        "avg_wer": 0.8629197396882594,
+        "count": 98
+      }
+    },
+    "by_condition": {
+      "clean": {
+        "avg_wer": 0.9337363131096764,
+        "count": 100
+      },
+      "contest_poor": {
+        "avg_wer": 0.7335574085699269,
+        "count": 98
+      },
+      "dx_expedition": {
+        "avg_wer": 0.9341595160149373,
+        "count": 100
+      },
+      "contest_moderate": {
+        "avg_wer": 1.4239163433051778,
+        "count": 106
+      },
+      "contest_good": {
+        "avg_wer": 0.7416647330782391,
+        "count": 96
+      }
+    },
+    "callsign_errors": [
+      {
+        "reference": "VA0DB",
+        "prediction": "DE"
+      },
+      {
+        "reference": "IU9EHB",
+        "prediction": "4A"
+      },
+      {
+        "reference": "4A",
+        "prediction": "SD"
+      },
+      {
+        "reference": "4A",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "IU9EHB",
+        "prediction": "4A"
+      },
+      {
+        "reference": "JF2XZU",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "WR0LRN",
+        "prediction": "WW0LRN"
+      },
+      {
+        "reference": "WR0LRN",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "WR0LRN",
+        "prediction": "WW4T"
+      },
+      {
+        "reference": "WW4T",
+        "prediction": "599"
+      },
+      {
+        "reference": "WR0LRN",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "RW7DT",
+        "prediction": "RW7NT"
+      },
+      {
+        "reference": "I6C?",
+        "prediction": "?"
+      },
+      {
+        "reference": "VO6WHI",
+        "prediction": "8T01"
+      },
+      {
+        "reference": "8T001",
+        "prediction": "S"
+      },
+      {
+        "reference": "RN4SCS",
+        "prediction": "R"
+      },
+      {
+        "reference": "4T779",
+        "prediction": "599"
+      },
+      {
+        "reference": "F9Z7",
+        "prediction": "1500"
+      },
+      {
+        "reference": "RN4SCS",
+        "prediction": "GL"
+      },
+      {
+        "reference": "AY9TV",
+        "prediction": "AY9T4"
+      },
+      {
+        "reference": "I0IR",
+        "prediction": "IQ0IR"
+      },
+      {
+        "reference": "I0IR",
+        "prediction": "IQ0IR"
+      },
+      {
+        "reference": "I0IR",
+        "prediction": "IQ0IR"
+      },
+      {
+        "reference": "I0IR",
+        "prediction": "DE"
+      },
+      {
+        "reference": "GW9KQ",
+        "prediction": "5305"
+      },
+      {
+        "reference": "LS5AB",
+        "prediction": "LH5A7"
+      },
+      {
+        "reference": "LS5AB",
+        "prediction": "LH5A7"
+      },
+      {
+        "reference": "LS5AB",
+        "prediction": "LH5A7"
+      },
+      {
+        "reference": "VK5UHV",
+        "prediction": "VK5UH4"
+      },
+      {
+        "reference": "VK5UHV",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "RY4BAQ",
+        "prediction": "599"
+      },
+      {
+        "reference": "DE9EYC",
+        "prediction": "?"
+      },
+      {
+        "reference": "KP5LK",
+        "prediction": "KW5LK"
+      },
+      {
+        "reference": "KP5LK",
+        "prediction": "599"
+      },
+      {
+        "reference": "KP5LK",
+        "prediction": "20"
+      },
+      {
+        "reference": "KP5LK",
+        "prediction": "JO0PWG"
+      },
+      {
+        "reference": "JO0PWG",
+        "prediction": "KW5LK"
+      },
+      {
+        "reference": "JO0P?",
+        "prediction": "599"
+      },
+      {
+        "reference": "JO0P?",
+        "prediction": "20"
+      },
+      {
+        "reference": "KP5LK",
+        "prediction": "JO0PWG"
+      },
+      {
+        "reference": "JO0PWG",
+        "prediction": "1500"
+      },
+      {
+        "reference": "KP5LK",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JC5LNH",
+        "prediction": "2396"
+      },
+      {
+        "reference": "EG4NEC",
+        "prediction": "UF3IV"
+      },
+      {
+        "reference": "UF3IV",
+        "prediction": "BEN"
+      },
+      {
+        "reference": "KA5PD9",
+        "prediction": "KW5D9"
+      },
+      {
+        "reference": "JG9MA?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JA3TP",
+        "prediction": "8T729"
+      },
+      {
+        "reference": "8T729",
+        "prediction": "?"
+      },
+      {
+        "reference": "KY3DH4",
+        "prediction": "KW3DH4"
+      },
+      {
+        "reference": "KY3DH4",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "KY3DH4",
+        "prediction": "JH5EI"
+      },
+      {
+        "reference": "JH5EI",
+        "prediction": "1A"
+      },
+      {
+        "reference": "1A",
+        "prediction": "WV"
+      },
+      {
+        "reference": "4A",
+        "prediction": "EMA"
+      },
+      {
+        "reference": "KC5EF",
+        "prediction": "K"
+      },
+      {
+        "reference": "GI2NA",
+        "prediction": "GI2NW"
+      },
+      {
+        "reference": "GI2NA",
+        "prediction": "GI2NW"
+      },
+      {
+        "reference": "VA4SIS",
+        "prediction": "VA4SS"
+      },
+      {
+        "reference": "VA4SIS",
+        "prediction": "VA4SS"
+      },
+      {
+        "reference": "VA4SIS",
+        "prediction": "VA4SS"
+      },
+      {
+        "reference": "IQ3XQJ",
+        "prediction": "IK3XQJ"
+      },
+      {
+        "reference": "VA4SIS",
+        "prediction": "IK3XQJ"
+      },
+      {
+        "reference": "IQ3XQJ",
+        "prediction": "KW"
+      },
+      {
+        "reference": "9T012",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VA4SIS",
+        "prediction": "IK3XQJ"
+      },
+      {
+        "reference": "KM4?",
+        "prediction": "?"
+      },
+      {
+        "reference": "ED5PSS",
+        "prediction": "599"
+      },
+      {
+        "reference": "ED5PSS",
+        "prediction": "KW"
+      },
+      {
+        "reference": "ED5PSS",
+        "prediction": "R"
+      },
+      {
+        "reference": "NK5HMY",
+        "prediction": "NK5HMA"
+      },
+      {
+        "reference": "NK5HMY",
+        "prediction": "R"
+      },
+      {
+        "reference": "4T227",
+        "prediction": "599"
+      },
+      {
+        "reference": "M10R9",
+        "prediction": "M1RO9"
+      },
+      {
+        "reference": "JD5GF",
+        "prediction": "?"
+      },
+      {
+        "reference": "JN0F6",
+        "prediction": "9T003"
+      },
+      {
+        "reference": "JP6DX",
+        "prediction": "EA6JBF"
+      },
+      {
+        "reference": "2B",
+        "prediction": "JP6DX"
+      },
+      {
+        "reference": "2A",
+        "prediction": "WI?"
+      },
+      {
+        "reference": "EA6JBF",
+        "prediction": "2B"
+      },
+      {
+        "reference": "JP6DX",
+        "prediction": "2B"
+      },
+      {
+        "reference": "EA4CZT",
+        "prediction": "DE"
+      },
+      {
+        "reference": "EH2NP",
+        "prediction": "599"
+      },
+      {
+        "reference": "EA4CZT",
+        "prediction": "TU"
+      },
+      {
+        "reference": "WA2L?",
+        "prediction": "?"
+      },
+      {
+        "reference": "W1PZ",
+        "prediction": "5B"
+      },
+      {
+        "reference": "5B",
+        "prediction": "?"
+      },
+      {
+        "reference": "1A",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "F9UD",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "IU7BEE",
+        "prediction": "599"
+      },
+      {
+        "reference": "DM6QR",
+        "prediction": "KW"
+      },
+      {
+        "reference": "IU7BEE",
+        "prediction": "GL"
+      },
+      {
+        "reference": "JI2PMB",
+        "prediction": "?"
+      },
+      {
+        "reference": "JN8WNK",
+        "prediction": "JN8WK"
+      },
+      {
+        "reference": "2A",
+        "prediction": "599"
+      },
+      {
+        "reference": "1C",
+        "prediction": "KW"
+      },
+      {
+        "reference": "JN8WNK",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "VO0PD",
+        "prediction": "599"
+      },
+      {
+        "reference": "UA1YP",
+        "prediction": "AA1YP"
+      },
+      {
+        "reference": "UA1YP",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "UA1YP",
+        "prediction": "WX7X"
+      },
+      {
+        "reference": "WX7X",
+        "prediction": "599"
+      },
+      {
+        "reference": "AE3CZL",
+        "prediction": "AE3CZ"
+      },
+      {
+        "reference": "AE3CZL",
+        "prediction": "AE3CZ"
+      },
+      {
+        "reference": "AE3CZL",
+        "prediction": "AE3CZ"
+      },
+      {
+        "reference": "AE3CZL",
+        "prediction": "K"
+      },
+      {
+        "reference": "KS3KOM",
+        "prediction": "KS"
+      },
+      {
+        "reference": "KS3KOM",
+        "prediction": "TU"
+      },
+      {
+        "reference": "F0L?",
+        "prediction": "?"
+      },
+      {
+        "reference": "RJ5MC",
+        "prediction": "RY5MG"
+      },
+      {
+        "reference": "RJ5MC",
+        "prediction": "RY5MG"
+      },
+      {
+        "reference": "RJ5MC",
+        "prediction": "RY5MG"
+      },
+      {
+        "reference": "RJ5MC",
+        "prediction": "RY5MG"
+      },
+      {
+        "reference": "RJ5MC",
+        "prediction": "RY5MG"
+      },
+      {
+        "reference": "GU4NDP",
+        "prediction": "RI"
+      },
+      {
+        "reference": "PW2FHG",
+        "prediction": "IW2FHG"
+      },
+      {
+        "reference": "PW2FHG",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JA5OCF",
+        "prediction": "JC4YY"
+      },
+      {
+        "reference": "JC4YY",
+        "prediction": "AL"
+      },
+      {
+        "reference": "5E",
+        "prediction": "K"
+      },
+      {
+        "reference": "1A",
+        "prediction": "JA5OCF"
+      },
+      {
+        "reference": "JA5OCF",
+        "prediction": "TU"
+      },
+      {
+        "reference": "JP9VUP",
+        "prediction": "5T869"
+      },
+      {
+        "reference": "5T869",
+        "prediction": "AL"
+      },
+      {
+        "reference": "IU9UP",
+        "prediction": "IW9UP"
+      },
+      {
+        "reference": "IU9UP",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "IU9UP",
+        "prediction": "NW4MA"
+      },
+      {
+        "reference": "NW4MZA",
+        "prediction": "6276"
+      },
+      {
+        "reference": "NW4MZA",
+        "prediction": "NW4MA"
+      },
+      {
+        "reference": "VY7TC",
+        "prediction": "VY7TK"
+      },
+      {
+        "reference": "JB3ZNR",
+        "prediction": "9713"
+      },
+      {
+        "reference": "AZ9SHF",
+        "prediction": "599"
+      },
+      {
+        "reference": "DH1KRV",
+        "prediction": "5184"
+      },
+      {
+        "reference": "JH3BJA",
+        "prediction": "JS3BCA"
+      },
+      {
+        "reference": "JH3BJA",
+        "prediction": "JS3BCA"
+      },
+      {
+        "reference": "JH3BJA",
+        "prediction": "JS3BCA"
+      },
+      {
+        "reference": "JC4HW",
+        "prediction": "OH"
+      },
+      {
+        "reference": "JH3BJA",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JH3BJA",
+        "prediction": "JS3BCA"
+      },
+      {
+        "reference": "JC4HW",
+        "prediction": "599"
+      },
+      {
+        "reference": "KU5KV3",
+        "prediction": "KU5KV"
+      },
+      {
+        "reference": "KU5KV3",
+        "prediction": "KU5KV"
+      },
+      {
+        "reference": "KU5KV3",
+        "prediction": "KU5KV"
+      },
+      {
+        "reference": "RH0DUW",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JE4IY0",
+        "prediction": "599"
+      },
+      {
+        "reference": "DJ0BQM",
+        "prediction": "DE1BQM"
+      },
+      {
+        "reference": "DJ0BQM",
+        "prediction": "DE1BQM"
+      },
+      {
+        "reference": "DJ0BQM",
+        "prediction": "WS4M"
+      },
+      {
+        "reference": "WS4M",
+        "prediction": "PAT"
+      },
+      {
+        "reference": "DJ0BQM",
+        "prediction": "WS4M"
+      },
+      {
+        "reference": "ZZ9JM",
+        "prediction": "9T63?"
+      },
+      {
+        "reference": "9T639",
+        "prediction": "9T639?"
+      },
+      {
+        "reference": "M32PPS",
+        "prediction": "M3LYL"
+      },
+      {
+        "reference": "M3LYL",
+        "prediction": "27"
+      },
+      {
+        "reference": "M66OZ",
+        "prediction": "M06OZ"
+      },
+      {
+        "reference": "DH0SO",
+        "prediction": "599"
+      },
+      {
+        "reference": "DP6FX",
+        "prediction": "DB6FX"
+      },
+      {
+        "reference": "DP6FX",
+        "prediction": "DB6FX"
+      },
+      {
+        "reference": "DP6FX",
+        "prediction": "DB6FX"
+      },
+      {
+        "reference": "IW5ASQ",
+        "prediction": "IW5LQ"
+      },
+      {
+        "reference": "IW5ASQ",
+        "prediction": "IW5LQ"
+      },
+      {
+        "reference": "IW5ASQ",
+        "prediction": "599"
+      },
+      {
+        "reference": "W2CS",
+        "prediction": "599"
+      },
+      {
+        "reference": "JQ9CFI",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "JQ9CFI",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "F1EZ",
+        "prediction": "JQ9CFI"
+      },
+      {
+        "reference": "JQ9CFI",
+        "prediction": "K"
+      },
+      {
+        "reference": "F1EZ",
+        "prediction": "2403"
+      },
+      {
+        "reference": "JM7PAP",
+        "prediction": "IW7PP"
+      },
+      {
+        "reference": "JM7PAP",
+        "prediction": "IW7PP"
+      },
+      {
+        "reference": "JM7PAP",
+        "prediction": "IW7PP"
+      },
+      {
+        "reference": "1E",
+        "prediction": "5A"
+      },
+      {
+        "reference": "JM7PAP",
+        "prediction": "IW7PP"
+      },
+      {
+        "reference": "JI0UKD",
+        "prediction": "IZ0UQD"
+      },
+      {
+        "reference": "JI0UKD",
+        "prediction": "IZ0UQD"
+      },
+      {
+        "reference": "JI0UKD",
+        "prediction": "B"
+      },
+      {
+        "reference": "T555",
+        "prediction": "56"
+      },
+      {
+        "reference": "M10FKW",
+        "prediction": "599"
+      },
+      {
+        "reference": "3T510",
+        "prediction": "KW"
+      },
+      {
+        "reference": "M10FKW",
+        "prediction": "56"
+      },
+      {
+        "reference": "KS3E",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "KX1MZ6",
+        "prediction": "KX1MZB"
+      },
+      {
+        "reference": "3T985",
+        "prediction": "3T913"
+      },
+      {
+        "reference": "KX1MZ6",
+        "prediction": "3T913"
+      },
+      {
+        "reference": "DP5PC",
+        "prediction": "?"
+      },
+      {
+        "reference": "JA4HS",
+        "prediction": "599"
+      },
+      {
+        "reference": "WN6LY8",
+        "prediction": "599"
+      },
+      {
+        "reference": "EA3?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JL8Y?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JB3SWI",
+        "prediction": "TU"
+      },
+      {
+        "reference": "VE2MPC",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "LT6EL"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "LT6EL"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "LT6EL"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "DE"
+      },
+      {
+        "reference": "RW7PNP",
+        "prediction": "5642"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "DE"
+      },
+      {
+        "reference": "RW7PNP",
+        "prediction": "5642"
+      },
+      {
+        "reference": "RT6EL",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "AJ9O",
+        "prediction": "IW9O"
+      },
+      {
+        "reference": "AJ9O",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "AJ9O",
+        "prediction": "DE"
+      },
+      {
+        "reference": "KX5RZ",
+        "prediction": "599"
+      },
+      {
+        "reference": "KX5RZ",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "DH5X3",
+        "prediction": "599"
+      },
+      {
+        "reference": "IQ9CFQ",
+        "prediction": "599"
+      },
+      {
+        "reference": "EC5DBM",
+        "prediction": "IK5DBM"
+      },
+      {
+        "reference": "EC5DBM",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "EC5DBM",
+        "prediction": "KZ2FN"
+      },
+      {
+        "reference": "KZ2FN",
+        "prediction": "559"
+      },
+      {
+        "reference": "EC5DBM",
+        "prediction": "KZ2FN"
+      },
+      {
+        "reference": "PV5FY",
+        "prediction": "9A"
+      },
+      {
+        "reference": "9A",
+        "prediction": "WP?"
+      },
+      {
+        "reference": "M32FV",
+        "prediction": "M3FV"
+      },
+      {
+        "reference": "M32FV",
+        "prediction": "GJ9"
+      },
+      {
+        "reference": "M32FV",
+        "prediction": "M3FV"
+      },
+      {
+        "reference": "M32FV",
+        "prediction": "GJ9"
+      },
+      {
+        "reference": "VK1PBPM",
+        "prediction": "M3FV"
+      },
+      {
+        "reference": "M32FV",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "VK1PBPM",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "NF6?",
+        "prediction": "?"
+      },
+      {
+        "reference": "DR5DCU",
+        "prediction": "7420"
+      },
+      {
+        "reference": "KV2N",
+        "prediction": "K"
+      },
+      {
+        "reference": "KV2N",
+        "prediction": "JS1IZ"
+      },
+      {
+        "reference": "JS1IZ",
+        "prediction": "3T750"
+      },
+      {
+        "reference": "3T750",
+        "prediction": "K"
+      },
+      {
+        "reference": "JG9XAR",
+        "prediction": "JG9XP"
+      },
+      {
+        "reference": "JG9XAR",
+        "prediction": "JG9XP"
+      },
+      {
+        "reference": "JG9XAR",
+        "prediction": "JG9XP"
+      },
+      {
+        "reference": "JG9XAR",
+        "prediction": "JG9XP"
+      },
+      {
+        "reference": "F7DA",
+        "prediction": "599"
+      },
+      {
+        "reference": "F7DA",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JL4O5",
+        "prediction": "7371"
+      },
+      {
+        "reference": "KE4FKN",
+        "prediction": "7606"
+      },
+      {
+        "reference": "KZ4Y",
+        "prediction": "KZ4K"
+      },
+      {
+        "reference": "KZ4Y",
+        "prediction": "K"
+      },
+      {
+        "reference": "KZ4Y",
+        "prediction": "JJ2TCK"
+      },
+      {
+        "reference": "JJ2TCQ",
+        "prediction": "599"
+      },
+      {
+        "reference": "EH4J4",
+        "prediction": "EH4JV"
+      },
+      {
+        "reference": "EH4J4",
+        "prediction": "EH4JV"
+      },
+      {
+        "reference": "EH4J4",
+        "prediction": "EH4JV"
+      },
+      {
+        "reference": "EH4J4",
+        "prediction": "EF4JV"
+      },
+      {
+        "reference": "IU9XGE",
+        "prediction": "GL"
+      },
+      {
+        "reference": "EH4J4",
+        "prediction": "73"
+      },
+      {
+        "reference": "EH4J4",
+        "prediction": "EF4JV"
+      },
+      {
+        "reference": "VY8PG",
+        "prediction": "599"
+      },
+      {
+        "reference": "DN4DMN",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "DN4DMN",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "9T012",
+        "prediction": "DN4DMN"
+      },
+      {
+        "reference": "VY4QXJ",
+        "prediction": "18"
+      },
+      {
+        "reference": "5T248",
+        "prediction": "NR?"
+      },
+      {
+        "reference": "PQ2MDL",
+        "prediction": "PQ2MD"
+      },
+      {
+        "reference": "PQ2MDL",
+        "prediction": "PQ2MD"
+      },
+      {
+        "reference": "PQ2MDL",
+        "prediction": "PQ2MD"
+      },
+      {
+        "reference": "JE0UMU",
+        "prediction": "JQ0UM"
+      },
+      {
+        "reference": "M1OOC",
+        "prediction": "M10OK"
+      },
+      {
+        "reference": "LS2CM",
+        "prediction": "5T214"
+      },
+      {
+        "reference": "5T214",
+        "prediction": "73"
+      },
+      {
+        "reference": "M1OOC",
+        "prediction": "GL"
+      },
+      {
+        "reference": "DC5BC",
+        "prediction": "599"
+      },
+      {
+        "reference": "IU6AOM",
+        "prediction": "2T552"
+      },
+      {
+        "reference": "2T552",
+        "prediction": "JQHN"
+      },
+      {
+        "reference": "F2?",
+        "prediction": "?"
+      },
+      {
+        "reference": "PV0GDY",
+        "prediction": "3T256"
+      },
+      {
+        "reference": "3T256",
+        "prediction": "B"
+      },
+      {
+        "reference": "DE6ZUF",
+        "prediction": "599"
+      },
+      {
+        "reference": "WC4QWQ",
+        "prediction": "WC4QW"
+      },
+      {
+        "reference": "DM2NK",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DM2NK",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "5A",
+        "prediction": "DM2NK"
+      },
+      {
+        "reference": "2E3OC",
+        "prediction": "GTA"
+      },
+      {
+        "reference": "DM2NK",
+        "prediction": "NR?"
+      },
+      {
+        "reference": "5A",
+        "prediction": "DM2NK"
+      },
+      {
+        "reference": "2E3OC",
+        "prediction": "GTA"
+      },
+      {
+        "reference": "4A",
+        "prediction": "2E3OC"
+      },
+      {
+        "reference": "2E3OC",
+        "prediction": "TU"
+      },
+      {
+        "reference": "EC5EJX",
+        "prediction": "31"
+      },
+      {
+        "reference": "EC5EJX",
+        "prediction": "TU"
+      },
+      {
+        "reference": "VY5SD",
+        "prediction": "4455"
+      },
+      {
+        "reference": "DN9IQH",
+        "prediction": "599"
+      },
+      {
+        "reference": "NV5UW",
+        "prediction": "NRHV"
+      },
+      {
+        "reference": "NV5UW",
+        "prediction": "LYNN"
+      },
+      {
+        "reference": "EA7SK",
+        "prediction": "EA7X"
+      },
+      {
+        "reference": "EA7SK",
+        "prediction": "EA7X"
+      },
+      {
+        "reference": "JQ4JM",
+        "prediction": "1500"
+      },
+      {
+        "reference": "EA7SK",
+        "prediction": "TU"
+      },
+      {
+        "reference": "JM5YUK",
+        "prediction": "599"
+      },
+      {
+        "reference": "IW9TBB",
+        "prediction": "9979"
+      },
+      {
+        "reference": "IZ7JDK",
+        "prediction": "9609"
+      },
+      {
+        "reference": "JL2M0",
+        "prediction": "6T368"
+      },
+      {
+        "reference": "6T368",
+        "prediction": "A"
+      },
+      {
+        "reference": "WK1SR",
+        "prediction": "KC3W"
+      },
+      {
+        "reference": "KC3W",
+        "prediction": "898"
+      },
+      {
+        "reference": "KC3W",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "KN9S",
+        "prediction": "IW9S"
+      },
+      {
+        "reference": "KN9S",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "KN9S",
+        "prediction": "DE"
+      },
+      {
+        "reference": "IU9CAT",
+        "prediction": "599"
+      },
+      {
+        "reference": "KN9S",
+        "prediction": "73"
+      },
+      {
+        "reference": "IU9CAT",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "DO4N?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JC6MCJ",
+        "prediction": "599"
+      },
+      {
+        "reference": "RI9AXG",
+        "prediction": "JA8HX"
+      },
+      {
+        "reference": "JA8HX",
+        "prediction": "599"
+      },
+      {
+        "reference": "JA8HX",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "UC0TZ",
+        "prediction": "599"
+      },
+      {
+        "reference": "AJ3RC",
+        "prediction": "?"
+      },
+      {
+        "reference": "2E1G3",
+        "prediction": "2E"
+      },
+      {
+        "reference": "3A",
+        "prediction": "WI"
+      },
+      {
+        "reference": "JP9UY",
+        "prediction": "TU"
+      },
+      {
+        "reference": "JP9UY",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "2E1G3",
+        "prediction": "TU"
+      },
+      {
+        "reference": "3A",
+        "prediction": "WI"
+      },
+      {
+        "reference": "EG2GJ",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "DH9X1",
+        "prediction": "599"
+      },
+      {
+        "reference": "IW5MY",
+        "prediction": "599"
+      },
+      {
+        "reference": "M5WL",
+        "prediction": "GW5WL"
+      },
+      {
+        "reference": "M5WL",
+        "prediction": "GW5WL"
+      },
+      {
+        "reference": "JI9VZS",
+        "prediction": "?"
+      },
+      {
+        "reference": "IZ2JA",
+        "prediction": "?"
+      },
+      {
+        "reference": "IU2OSO",
+        "prediction": "IU2OSQ"
+      },
+      {
+        "reference": "IU2OSO",
+        "prediction": "IU2OSQ"
+      },
+      {
+        "reference": "IU2OSO",
+        "prediction": "599"
+      },
+      {
+        "reference": "WE5VJ",
+        "prediction": "599"
+      },
+      {
+        "reference": "F6TOC",
+        "prediction": "599"
+      },
+      {
+        "reference": "JA4X9",
+        "prediction": "599"
+      },
+      {
+        "reference": "VY6RO",
+        "prediction": "VY6RY"
+      },
+      {
+        "reference": "VY6RO",
+        "prediction": "VY6RY"
+      },
+      {
+        "reference": "VY6RO",
+        "prediction": "VY6RY"
+      },
+      {
+        "reference": "UC2GF",
+        "prediction": "QC2GF"
+      },
+      {
+        "reference": "KD3IRZ",
+        "prediction": "KD3SRZ"
+      },
+      {
+        "reference": "KD3IRZ",
+        "prediction": "KD3SRZ"
+      },
+      {
+        "reference": "RZ1BG",
+        "prediction": "K"
+      },
+      {
+        "reference": "RZ1BG",
+        "prediction": "599"
+      },
+      {
+        "reference": "VA8NMX",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "JC2NYW",
+        "prediction": "GL"
+      },
+      {
+        "reference": "JC2NYW",
+        "prediction": "73"
+      },
+      {
+        "reference": "3B",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "GJ4WH",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "VK1GMG",
+        "prediction": "499"
+      },
+      {
+        "reference": "KI3V",
+        "prediction": "KS3V"
+      },
+      {
+        "reference": "RO3GD",
+        "prediction": "599"
+      },
+      {
+        "reference": "EH9JAO",
+        "prediction": "EF9JAO"
+      },
+      {
+        "reference": "EH9JAO",
+        "prediction": "EF9JAO"
+      },
+      {
+        "reference": "EH9JAO",
+        "prediction": "EF9JAO"
+      },
+      {
+        "reference": "EH9JAO",
+        "prediction": "EF9JAO"
+      },
+      {
+        "reference": "DN2SDD",
+        "prediction": "DN2SD"
+      },
+      {
+        "reference": "DN2SDD",
+        "prediction": "DN2SD"
+      },
+      {
+        "reference": "F7FZR",
+        "prediction": "599"
+      },
+      {
+        "reference": "DI8AP",
+        "prediction": "599"
+      },
+      {
+        "reference": "JI5YD",
+        "prediction": "JE5YD"
+      },
+      {
+        "reference": "JI5YD",
+        "prediction": "JE5YD"
+      },
+      {
+        "reference": "DD6M4",
+        "prediction": "599"
+      },
+      {
+        "reference": "M30NA",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "I2MVF",
+        "prediction": "599"
+      },
+      {
+        "reference": "GI1QX",
+        "prediction": "IZ1QX"
+      },
+      {
+        "reference": "GI1QX",
+        "prediction": "IZ1QX"
+      },
+      {
+        "reference": "GI1QX",
+        "prediction": "JA4FY"
+      },
+      {
+        "reference": "JA4FY",
+        "prediction": "WNY"
+      },
+      {
+        "reference": "1B",
+        "prediction": "K"
+      },
+      {
+        "reference": "1A",
+        "prediction": "GL"
+      },
+      {
+        "reference": "NI2BB",
+        "prediction": "9352"
+      },
+      {
+        "reference": "JC5PA",
+        "prediction": "2B"
+      },
+      {
+        "reference": "2B",
+        "prediction": "LA"
+      },
+      {
+        "reference": "NG8IUA",
+        "prediction": "R"
+      },
+      {
+        "reference": "2A",
+        "prediction": "TN"
+      },
+      {
+        "reference": "G5PLN",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "G5PLN",
+        "prediction": "CQ"
+      },
+      {
+        "reference": "G5PLN",
+        "prediction": "GW7LN"
+      },
+      {
+        "reference": "PR8YL",
+        "prediction": "GW7LN"
+      },
+      {
+        "reference": "G5PLN",
+        "prediction": "GW7LN"
+      },
+      {
+        "reference": "G5PLN",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "PR8YL",
+        "prediction": "599"
+      },
+      {
+        "reference": "8T061",
+        "prediction": "GL"
+      },
+      {
+        "reference": "JF7XP",
+        "prediction": "4B"
+      },
+      {
+        "reference": "DM9V?",
+        "prediction": "?"
+      },
+      {
+        "reference": "M32?",
+        "prediction": "?"
+      },
+      {
+        "reference": "KE2PM",
+        "prediction": "OH"
+      },
+      {
+        "reference": "KE2PM",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "M66MD",
+        "prediction": "KE2PM"
+      },
+      {
+        "reference": "9T523",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "JC6DY",
+        "prediction": "JQ6DK"
+      },
+      {
+        "reference": "DJ6JZ",
+        "prediction": "IZ1BJZ"
+      },
+      {
+        "reference": "DJ6JZ",
+        "prediction": "IZ1BJZ"
+      },
+      {
+        "reference": "DJ6JZ",
+        "prediction": "ED3TL"
+      },
+      {
+        "reference": "ED3TL",
+        "prediction": "60"
+      },
+      {
+        "reference": "DJ6JZ",
+        "prediction": "ED3TL"
+      },
+      {
+        "reference": "ED3TL",
+        "prediction": "60"
+      },
+      {
+        "reference": "LO5NAR",
+        "prediction": "599"
+      },
+      {
+        "reference": "2E6U5",
+        "prediction": "JE6U5"
+      },
+      {
+        "reference": "2E6U5",
+        "prediction": "JE6U5"
+      },
+      {
+        "reference": "2E6U5",
+        "prediction": "3T485"
+      },
+      {
+        "reference": "3T485",
+        "prediction": "SUE"
+      },
+      {
+        "reference": "I9YMK",
+        "prediction": "CALL?"
+      },
+      {
+        "reference": "2E6U5",
+        "prediction": "3T485"
+      },
+      {
+        "reference": "3T485",
+        "prediction": "SUE"
+      },
+      {
+        "reference": "I9YMK",
+        "prediction": "3T485"
+      },
+      {
+        "reference": "7T417",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "2E6U5",
+        "prediction": "JE6U5"
+      },
+      {
+        "reference": "F7ZLI",
+        "prediction": "599"
+      },
+      {
+        "reference": "NM3R",
+        "prediction": "DG7PY"
+      },
+      {
+        "reference": "NM3R",
+        "prediction": "599"
+      },
+      {
+        "reference": "NM3R",
+        "prediction": "34"
+      },
+      {
+        "reference": "NM3R",
+        "prediction": "K"
+      },
+      {
+        "reference": "DG7PY",
+        "prediction": "569"
+      },
+      {
+        "reference": "EA6T6",
+        "prediction": "EA6TB"
+      },
+      {
+        "reference": "AJ5F",
+        "prediction": "?"
+      },
+      {
+        "reference": "VO1?",
+        "prediction": "?"
+      },
+      {
+        "reference": "M51AG",
+        "prediction": "DE"
+      },
+      {
+        "reference": "JO3P7",
+        "prediction": "599"
+      },
+      {
+        "reference": "JO3?",
+        "prediction": "599"
+      },
+      {
+        "reference": "JO3?",
+        "prediction": "2"
+      },
+      {
+        "reference": "KC2KH",
+        "prediction": "DE"
+      },
+      {
+        "reference": "EB5JH",
+        "prediction": "DE"
+      },
+      {
+        "reference": "IU7RGS",
+        "prediction": "559"
+      },
+      {
+        "reference": "3T029",
+        "prediction": "K"
+      },
+      {
+        "reference": "EB5JH",
+        "prediction": "IU7RGS"
+      },
+      {
+        "reference": "IU7RGS",
+        "prediction": "K"
+      },
+      {
+        "reference": "M08OQ",
+        "prediction": "M0ZOQ"
+      },
+      {
+        "reference": "VK7TVFT",
+        "prediction": "VK7TVT"
+      },
+      {
+        "reference": "VK7TVFT",
+        "prediction": "VK7TVT"
+      },
+      {
+        "reference": "VK7TVFT",
+        "prediction": "VK7TVT"
+      },
+      {
+        "reference": "VK7TVFT",
+        "prediction": "VK7TVT"
+      },
+      {
+        "reference": "DN1PY",
+        "prediction": "TU"
+      },
+      {
+        "reference": "IK8JG",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "WA9RYX",
+        "prediction": "4A"
+      },
+      {
+        "reference": "4A",
+        "prediction": "?"
+      },
+      {
+        "reference": "GW4?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JP3MB",
+        "prediction": "IW1MB"
+      },
+      {
+        "reference": "JP3MB",
+        "prediction": "IW1MB"
+      },
+      {
+        "reference": "JP3MB",
+        "prediction": "IW1MB"
+      },
+      {
+        "reference": "GM6SJ",
+        "prediction": "JP3MB"
+      },
+      {
+        "reference": "GM6SJ",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "F1VSX",
+        "prediction": "599"
+      },
+      {
+        "reference": "KP2JMO",
+        "prediction": "KW?"
+      },
+      {
+        "reference": "IW6TZM",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "KY8U",
+        "prediction": "KQ8U"
+      },
+      {
+        "reference": "KY8U",
+        "prediction": "KQ8U"
+      },
+      {
+        "reference": "KY8U",
+        "prediction": "KQ8U"
+      },
+      {
+        "reference": "KY8U",
+        "prediction": "DE"
+      },
+      {
+        "reference": "IW8LQD",
+        "prediction": "599"
+      },
+      {
+        "reference": "IW8LQD",
+        "prediction": "73"
+      },
+      {
+        "reference": "I3VKZ",
+        "prediction": "599"
+      },
+      {
+        "reference": "IK9HGA",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "I3VKZ",
+        "prediction": "599"
+      },
+      {
+        "reference": "IK9HGA",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "AG6MVD",
+        "prediction": "?"
+      },
+      {
+        "reference": "DM4GM",
+        "prediction": "DM4NM"
+      },
+      {
+        "reference": "DM4GM",
+        "prediction": "DM4NM"
+      },
+      {
+        "reference": "DM4GM",
+        "prediction": "DM4NM"
+      },
+      {
+        "reference": "WE4R",
+        "prediction": "WI4R"
+      },
+      {
+        "reference": "DM4GM",
+        "prediction": "DM4NM"
+      },
+      {
+        "reference": "WE4R",
+        "prediction": "WI4R"
+      },
+      {
+        "reference": "M64ZLA",
+        "prediction": "IW6VZA"
+      },
+      {
+        "reference": "M64ZLA",
+        "prediction": "IW6VZA"
+      },
+      {
+        "reference": "M64ZLA",
+        "prediction": "IW6VZA"
+      },
+      {
+        "reference": "M64ZLA",
+        "prediction": "IW6VZA"
+      },
+      {
+        "reference": "IK3RZ",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JD1WHR",
+        "prediction": "599"
+      },
+      {
+        "reference": "IZ8YD",
+        "prediction": "IQ7DWQ"
+      },
+      {
+        "reference": "IZ8YD",
+        "prediction": "IQ7DWQ"
+      },
+      {
+        "reference": "RL9C9",
+        "prediction": "K"
+      },
+      {
+        "reference": "RL9C9",
+        "prediction": "599"
+      },
+      {
+        "reference": "ED9GNT",
+        "prediction": "RL9C9"
+      },
+      {
+        "reference": "EG4A?",
+        "prediction": "?"
+      },
+      {
+        "reference": "DF7AT",
+        "prediction": "01"
+      },
+      {
+        "reference": "JM9I?",
+        "prediction": "?"
+      },
+      {
+        "reference": "LS3R?",
+        "prediction": "LL?"
+      },
+      {
+        "reference": "GD0CH",
+        "prediction": "599"
+      },
+      {
+        "reference": "JQ0GZO",
+        "prediction": "JQ0GZ"
+      },
+      {
+        "reference": "JQ0GZO",
+        "prediction": "JQ0GZ"
+      },
+      {
+        "reference": "EA6EX",
+        "prediction": "?"
+      },
+      {
+        "reference": "DP6XV",
+        "prediction": "599"
+      },
+      {
+        "reference": "DB2FJM",
+        "prediction": "DB2FJR"
+      },
+      {
+        "reference": "DB2FJM",
+        "prediction": "DB2FJR"
+      },
+      {
+        "reference": "WA3EN",
+        "prediction": "?"
+      },
+      {
+        "reference": "WB5N",
+        "prediction": "9T517"
+      },
+      {
+        "reference": "9T517",
+        "prediction": "FRED"
+      },
+      {
+        "reference": "M34CY",
+        "prediction": "M3VCW"
+      },
+      {
+        "reference": "KA8ZHL",
+        "prediction": "KW8ZL"
+      },
+      {
+        "reference": "2E4ILZ",
+        "prediction": "2E4IZ"
+      },
+      {
+        "reference": "2E4ILZ",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "RP6QWS",
+        "prediction": "890?"
+      },
+      {
+        "reference": "RX2PZ",
+        "prediction": "4907"
+      },
+      {
+        "reference": "2T097",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "IZ2JU",
+        "prediction": "KW"
+      },
+      {
+        "reference": "JK3CK",
+        "prediction": "JQ3CK"
+      },
+      {
+        "reference": "RG8WK",
+        "prediction": "UB7HD"
+      },
+      {
+        "reference": "UB7HD",
+        "prediction": "599"
+      },
+      {
+        "reference": "VK1TC",
+        "prediction": "7314"
+      },
+      {
+        "reference": "IK9FI5",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "IK9FI5",
+        "prediction": "JK5YM"
+      },
+      {
+        "reference": "JK5YM",
+        "prediction": "599"
+      },
+      {
+        "reference": "DG1ZD9",
+        "prediction": "DE"
+      },
+      {
+        "reference": "M12RXF",
+        "prediction": "3385"
+      },
+      {
+        "reference": "DG1ZD9",
+        "prediction": "M1JRX"
+      },
+      {
+        "reference": "M12RXF",
+        "prediction": "LYNN"
+      },
+      {
+        "reference": "GD9?",
+        "prediction": "?"
+      },
+      {
+        "reference": "DB3LLN",
+        "prediction": "DB3LN"
+      },
+      {
+        "reference": "DB3LLN",
+        "prediction": "DB3LN"
+      },
+      {
+        "reference": "DB3LLN",
+        "prediction": "DB3LN"
+      },
+      {
+        "reference": "DB3LLN",
+        "prediction": "DB3LN"
+      },
+      {
+        "reference": "DA3HB",
+        "prediction": "GL"
+      },
+      {
+        "reference": "DA3HB",
+        "prediction": "GL"
+      },
+      {
+        "reference": "JJ6KLU",
+        "prediction": "K"
+      },
+      {
+        "reference": "KZ1H",
+        "prediction": "K"
+      },
+      {
+        "reference": "VO3RDG",
+        "prediction": "QO3LD"
+      },
+      {
+        "reference": "IU5AZ",
+        "prediction": "2B"
+      },
+      {
+        "reference": "DF6NDL",
+        "prediction": "599"
+      },
+      {
+        "reference": "DG3URR",
+        "prediction": "?"
+      },
+      {
+        "reference": "JO9VB",
+        "prediction": "2A"
+      },
+      {
+        "reference": "2A",
+        "prediction": "?"
+      },
+      {
+        "reference": "UC3PUL",
+        "prediction": "599"
+      },
+      {
+        "reference": "DK3LS",
+        "prediction": "DE"
+      },
+      {
+        "reference": "DK3LS",
+        "prediction": "KX3LS"
+      },
+      {
+        "reference": "DK3LS",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JD4BR0",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VY8GYP",
+        "prediction": "499"
+      },
+      {
+        "reference": "JO2A3",
+        "prediction": "NM0P"
+      },
+      {
+        "reference": "JO2A3",
+        "prediction": "NM0P"
+      },
+      {
+        "reference": "JO2A3",
+        "prediction": "DE"
+      },
+      {
+        "reference": "IK0WU",
+        "prediction": "599"
+      },
+      {
+        "reference": "JO2A3",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "IK0WU",
+        "prediction": "JO2A3"
+      },
+      {
+        "reference": "JI0C?",
+        "prediction": "?"
+      },
+      {
+        "reference": "JM5VHN",
+        "prediction": "?"
+      },
+      {
+        "reference": "ED6L9",
+        "prediction": "EG6L9"
+      },
+      {
+        "reference": "ED6L9",
+        "prediction": "EG6L9"
+      },
+      {
+        "reference": "ED6L9",
+        "prediction": "7T008"
+      },
+      {
+        "reference": "JB6HY",
+        "prediction": "B"
+      },
+      {
+        "reference": "7T008",
+        "prediction": "86"
+      },
+      {
+        "reference": "ED6L9",
+        "prediction": "GL"
+      },
+      {
+        "reference": "JC1FA",
+        "prediction": "599"
+      },
+      {
+        "reference": "VK6Y6",
+        "prediction": "4K6YB"
+      },
+      {
+        "reference": "F4XO8",
+        "prediction": "F4X8"
+      },
+      {
+        "reference": "VK6WGI",
+        "prediction": "4K6WG"
+      },
+      {
+        "reference": "ED5EP",
+        "prediction": "EZ5EF"
+      },
+      {
+        "reference": "VA4V8",
+        "prediction": "4A4Z"
+      },
+      {
+        "reference": "EC9S9",
+        "prediction": "IK9S9"
+      },
+      {
+        "reference": "EC9S9",
+        "prediction": "IK9S9"
+      },
+      {
+        "reference": "EC9S9",
+        "prediction": "IK9S9"
+      },
+      {
+        "reference": "EC9S9",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "RR6WJE",
+        "prediction": "599"
+      },
+      {
+        "reference": "DH2J9",
+        "prediction": "599"
+      },
+      {
+        "reference": "LU0H3",
+        "prediction": "LL0H3"
+      },
+      {
+        "reference": "JC5RE",
+        "prediction": "DE"
+      },
+      {
+        "reference": "2A",
+        "prediction": "JC5RE"
+      },
+      {
+        "reference": "NC3WU",
+        "prediction": "VA"
+      },
+      {
+        "reference": "NC3?",
+        "prediction": "NC3WU"
+      },
+      {
+        "reference": "NC3?",
+        "prediction": "NC3W?"
+      },
+      {
+        "reference": "JC5RE",
+        "prediction": "NC3W?"
+      },
+      {
+        "reference": "2A",
+        "prediction": "JC5RE"
+      },
+      {
+        "reference": "NC3WU",
+        "prediction": "VA"
+      },
+      {
+        "reference": "4B",
+        "prediction": "R"
+      },
+      {
+        "reference": "NC3WU",
+        "prediction": "QRZ?"
+      },
+      {
+        "reference": "DG2DAU",
+        "prediction": "K"
+      },
+      {
+        "reference": "1D",
+        "prediction": "599"
+      },
+      {
+        "reference": "DG2DAU",
+        "prediction": "WNC"
+      },
+      {
+        "reference": "F4XF",
+        "prediction": "?"
+      },
+      {
+        "reference": "KY7?",
+        "prediction": "?"
+      },
+      {
+        "reference": "IK2BB",
+        "prediction": "IK2GB"
+      },
+      {
+        "reference": "IK2BB",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "IK2BB",
+        "prediction": "DE"
+      },
+      {
+        "reference": "IQ2NK",
+        "prediction": "599"
+      },
+      {
+        "reference": "UA7ELY",
+        "prediction": "UA7EY"
+      },
+      {
+        "reference": "UA7ELY",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "M35LEI",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "F7LH",
+        "prediction": "?"
+      },
+      {
+        "reference": "DI2JC",
+        "prediction": "DE"
+      },
+      {
+        "reference": "2B",
+        "prediction": "DI"
+      },
+      {
+        "reference": "LU8ZLG",
+        "prediction": "LV8ZLG"
+      },
+      {
+        "reference": "LU8ZLG",
+        "prediction": "LV8ZLG"
+      },
+      {
+        "reference": "LU8ZLG",
+        "prediction": "LV8ZLG"
+      },
+      {
+        "reference": "LU8ZLG",
+        "prediction": "LV8ZLG"
+      },
+      {
+        "reference": "LU8ZLG",
+        "prediction": "LV8Z?"
+      },
+      {
+        "reference": "LU8ZLG",
+        "prediction": "LV8ZLG"
+      },
+      {
+        "reference": "JK7FCT",
+        "prediction": "599"
+      },
+      {
+        "reference": "LO5JSR",
+        "prediction": "09"
+      },
+      {
+        "reference": "T097",
+        "prediction": "7"
+      },
+      {
+        "reference": "VK9VCW",
+        "prediction": "4K9VC"
+      },
+      {
+        "reference": "VY8ZFC",
+        "prediction": "599"
+      },
+      {
+        "reference": "KY4BTC",
+        "prediction": "VY8ZFC"
+      },
+      {
+        "reference": "VY8ZFC",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "VY8ZFC",
+        "prediction": "599"
+      },
+      {
+        "reference": "KY4BTC",
+        "prediction": "599"
+      },
+      {
+        "reference": "KY4BTC",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "LS2PTA",
+        "prediction": "LW2TA"
+      },
+      {
+        "reference": "I4TW",
+        "prediction": "IU4TW"
+      },
+      {
+        "reference": "I4TW",
+        "prediction": "IU4TW"
+      },
+      {
+        "reference": "I4TW",
+        "prediction": "599"
+      },
+      {
+        "reference": "M2PY0",
+        "prediction": "20"
+      },
+      {
+        "reference": "M2?",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "M2?",
+        "prediction": "TU"
+      },
+      {
+        "reference": "I4TW",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JK0MQ",
+        "prediction": "999"
+      },
+      {
+        "reference": "KI6LBZ",
+        "prediction": "?"
+      },
+      {
+        "reference": "EG9BVS",
+        "prediction": "EG9BVI"
+      },
+      {
+        "reference": "EG9BVS",
+        "prediction": "EG9BVI"
+      },
+      {
+        "reference": "EG9BVS",
+        "prediction": "EG9BVI"
+      },
+      {
+        "reference": "EG9BVS",
+        "prediction": "EG9BVI"
+      },
+      {
+        "reference": "WT5?",
+        "prediction": "?"
+      },
+      {
+        "reference": "IU9UJ9",
+        "prediction": "IW9UJ9"
+      },
+      {
+        "reference": "IU9UJ9",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "IU9UJ9",
+        "prediction": "3108"
+      },
+      {
+        "reference": "M67SI",
+        "prediction": "TU"
+      },
+      {
+        "reference": "IU9UJ9",
+        "prediction": "WCF"
+      },
+      {
+        "reference": "JA4OS",
+        "prediction": "8703"
+      },
+      {
+        "reference": "VY2XIF",
+        "prediction": "599"
+      },
+      {
+        "reference": "VY2XIF",
+        "prediction": "599"
+      },
+      {
+        "reference": "VK0I?",
+        "prediction": "4K0?"
+      },
+      {
+        "reference": "RO1QSZ",
+        "prediction": "RY1QSZ"
+      },
+      {
+        "reference": "RO1QSZ",
+        "prediction": "RY1QSZ"
+      },
+      {
+        "reference": "RO1QSZ",
+        "prediction": "RY1QSZ"
+      },
+      {
+        "reference": "RL9NN",
+        "prediction": "IW9NN"
+      },
+      {
+        "reference": "RL9NN",
+        "prediction": "IW9NN"
+      },
+      {
+        "reference": "M17DO1",
+        "prediction": "M1ZOJ"
+      },
+      {
+        "reference": "7T428",
+        "prediction": "599"
+      },
+      {
+        "reference": "T028",
+        "prediction": "KW"
+      },
+      {
+        "reference": "RL9NN",
+        "prediction": "599"
+      },
+      {
+        "reference": "M17DO1",
+        "prediction": "599"
+      },
+      {
+        "reference": "F2YL",
+        "prediction": "F2OL"
+      },
+      {
+        "reference": "F2YL",
+        "prediction": "F2OL"
+      },
+      {
+        "reference": "F2YL",
+        "prediction": "599"
+      },
+      {
+        "reference": "WP4U",
+        "prediction": "F2OL"
+      },
+      {
+        "reference": "F2YL",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "F2YL",
+        "prediction": "599"
+      },
+      {
+        "reference": "WP4U",
+        "prediction": "R"
+      },
+      {
+        "reference": "VK3IN",
+        "prediction": "599"
+      },
+      {
+        "reference": "PT8FEE",
+        "prediction": "PT8FE"
+      },
+      {
+        "reference": "RA8YMS",
+        "prediction": "1500"
+      },
+      {
+        "reference": "PT8FEE",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "IQ2ERA",
+        "prediction": "?"
+      },
+      {
+        "reference": "GU4IGJ",
+        "prediction": "?"
+      },
+      {
+        "reference": "DK2KSF",
+        "prediction": "DQ2KSF"
+      },
+      {
+        "reference": "JA3QL",
+        "prediction": "2A3KL"
+      },
+      {
+        "reference": "IQ9OOG",
+        "prediction": "8T793"
+      },
+      {
+        "reference": "JB4XIV",
+        "prediction": "IW7XIW"
+      },
+      {
+        "reference": "JB4XIV",
+        "prediction": "IW7XIW"
+      },
+      {
+        "reference": "VA8LOT",
+        "prediction": "4A8LOT"
+      },
+      {
+        "reference": "M05SAJ",
+        "prediction": "M05A1"
+      },
+      {
+        "reference": "M05SAJ",
+        "prediction": "M05A1"
+      },
+      {
+        "reference": "M05SAJ",
+        "prediction": "M05A1"
+      },
+      {
+        "reference": "M05SAJ",
+        "prediction": "599"
+      },
+      {
+        "reference": "VO5YK",
+        "prediction": "KW"
+      },
+      {
+        "reference": "N5MDU",
+        "prediction": "TU"
+      },
+      {
+        "reference": "VE9MRS",
+        "prediction": "3394"
+      },
+      {
+        "reference": "IW7OYF",
+        "prediction": "599"
+      },
+      {
+        "reference": "F5QII",
+        "prediction": "F5QS"
+      },
+      {
+        "reference": "F5QII",
+        "prediction": "2351"
+      },
+      {
+        "reference": "2E3HZ",
+        "prediction": "JE3H8"
+      },
+      {
+        "reference": "2E3HZ",
+        "prediction": "JE3H8"
+      },
+      {
+        "reference": "2E3HZ",
+        "prediction": "JE3H8"
+      },
+      {
+        "reference": "JA9GTD",
+        "prediction": "JE9TD"
+      },
+      {
+        "reference": "JA9GTD",
+        "prediction": "2A"
+      },
+      {
+        "reference": "JA9GTD",
+        "prediction": "9TD"
+      },
+      {
+        "reference": "WF3LJ",
+        "prediction": "WF3LW"
+      },
+      {
+        "reference": "WI5D",
+        "prediction": "3T690"
+      },
+      {
+        "reference": "3T690",
+        "prediction": "?"
+      },
+      {
+        "reference": "RW1MMU",
+        "prediction": "?"
+      },
+      {
+        "reference": "RO6SS",
+        "prediction": "RY6SS"
+      },
+      {
+        "reference": "RO6SS",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "NZ7IYV",
+        "prediction": "NZ7IQ"
+      },
+      {
+        "reference": "NZ7IYV",
+        "prediction": "NZ7IQ"
+      },
+      {
+        "reference": "NZ7IYV",
+        "prediction": "NZ7IQ"
+      },
+      {
+        "reference": "JL7HI",
+        "prediction": "5T643"
+      },
+      {
+        "reference": "JF7ZWD",
+        "prediction": "2F7ZWD"
+      },
+      {
+        "reference": "4B",
+        "prediction": "4A"
+      },
+      {
+        "reference": "RI0XGB",
+        "prediction": "?"
+      },
+      {
+        "reference": "EE2FFY",
+        "prediction": "8124"
+      },
+      {
+        "reference": "DG2TY",
+        "prediction": "DG2TK"
+      },
+      {
+        "reference": "GI9FP6",
+        "prediction": "IZ9FP6"
+      },
+      {
+        "reference": "GI9FP6",
+        "prediction": "IZ9FP6"
+      },
+      {
+        "reference": "GI9FP6",
+        "prediction": "IZ1RGP"
+      },
+      {
+        "reference": "GI1RGP",
+        "prediction": "RAY"
+      },
+      {
+        "reference": "DP0II",
+        "prediction": "DP0IS"
+      },
+      {
+        "reference": "DP0II",
+        "prediction": "DP0IS"
+      },
+      {
+        "reference": "DP0II",
+        "prediction": "DP0IS"
+      },
+      {
+        "reference": "DP0II",
+        "prediction": "DE"
+      },
+      {
+        "reference": "VA7YP",
+        "prediction": "599"
+      },
+      {
+        "reference": "JS2KX3",
+        "prediction": "599"
+      },
+      {
+        "reference": "DJ1TS",
+        "prediction": "NR?"
+      },
+      {
+        "reference": "DJ1TS",
+        "prediction": "JS2KX3"
+      },
+      {
+        "reference": "DC0HR",
+        "prediction": "2858"
+      },
+      {
+        "reference": "M7?",
+        "prediction": "?"
+      },
+      {
+        "reference": "DK0GDA",
+        "prediction": "DQ0GDA"
+      },
+      {
+        "reference": "LT9MGV",
+        "prediction": "DR1CYR"
+      },
+      {
+        "reference": "DR1CYR",
+        "prediction": "LARRY"
+      },
+      {
+        "reference": "LT9MGV",
+        "prediction": "GL"
+      },
+      {
+        "reference": "LT9MGV",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "VO9RP0",
+        "prediction": "3A"
+      },
+      {
+        "reference": "3A",
+        "prediction": "NFL"
+      },
+      {
+        "reference": "NT4ZT",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "NT4ZT",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "NT4ZT",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "JJ4IU",
+        "prediction": "214"
+      }
+    ],
+    "number_errors": [
+      {
+        "reference": "599",
+        "prediction": "64"
+      },
+      {
+        "reference": "64",
+        "prediction": "TU"
+      },
+      {
+        "reference": "599",
+        "prediction": "78"
+      },
+      {
+        "reference": "78",
+        "prediction": "WW0LRN"
+      },
+      {
+        "reference": "38",
+        "prediction": "SB"
+      },
+      {
+        "reference": "599",
+        "prediction": "TU"
+      },
+      {
+        "reference": "73",
+        "prediction": "F9Z7"
+      },
+      {
+        "reference": "5305",
+        "prediction": "K"
+      },
+      {
+        "reference": "56",
+        "prediction": "K"
+      },
+      {
+        "reference": "6386",
+        "prediction": "TU"
+      },
+      {
+        "reference": "07",
+        "prediction": "GW9KQ"
+      },
+      {
+        "reference": "73",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "599",
+        "prediction": "6067"
+      },
+      {
+        "reference": "599",
+        "prediction": "JO0?"
+      },
+      {
+        "reference": "20",
+        "prediction": "JO0?"
+      },
+      {
+        "reference": "599",
+        "prediction": "TU"
+      },
+      {
+        "reference": "20",
+        "prediction": "599"
+      },
+      {
+        "reference": "579",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "83",
+        "prediction": "TU"
+      },
+      {
+        "reference": "2396",
+        "prediction": "LARRY"
+      },
+      {
+        "reference": "7233",
+        "prediction": "725"
+      },
+      {
+        "reference": "29",
+        "prediction": "VA4SS"
+      },
+      {
+        "reference": "7233",
+        "prediction": "VA4SS"
+      },
+      {
+        "reference": "29",
+        "prediction": "IK3XQJ"
+      },
+      {
+        "reference": "77",
+        "prediction": "73"
+      },
+      {
+        "reference": "57",
+        "prediction": "TU"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "1500"
+      },
+      {
+        "reference": "1500",
+        "prediction": "K"
+      },
+      {
+        "reference": "599",
+        "prediction": "1500"
+      },
+      {
+        "reference": "73",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "641"
+      },
+      {
+        "reference": "641",
+        "prediction": "R"
+      },
+      {
+        "reference": "599",
+        "prediction": "4742"
+      },
+      {
+        "reference": "4742",
+        "prediction": "TU"
+      },
+      {
+        "reference": "6276",
+        "prediction": "RICK"
+      },
+      {
+        "reference": "7966",
+        "prediction": "DICK"
+      },
+      {
+        "reference": "73",
+        "prediction": "TU"
+      },
+      {
+        "reference": "9713",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "9627",
+        "prediction": "9622"
+      },
+      {
+        "reference": "2609",
+        "prediction": "599"
+      },
+      {
+        "reference": "73",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "9T639?"
+      },
+      {
+        "reference": "599",
+        "prediction": "K"
+      },
+      {
+        "reference": "27",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "GL"
+      },
+      {
+        "reference": "17",
+        "prediction": "73"
+      },
+      {
+        "reference": "73",
+        "prediction": "M3LYL"
+      },
+      {
+        "reference": "598",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "51"
+      },
+      {
+        "reference": "51",
+        "prediction": "W2CS"
+      },
+      {
+        "reference": "599",
+        "prediction": "6"
+      },
+      {
+        "reference": "6",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "6917",
+        "prediction": "JQ9CFI"
+      },
+      {
+        "reference": "559",
+        "prediction": "599"
+      },
+      {
+        "reference": "2403",
+        "prediction": "6917"
+      },
+      {
+        "reference": "73",
+        "prediction": "TU"
+      },
+      {
+        "reference": "56",
+        "prediction": "IZ0UQD"
+      },
+      {
+        "reference": "00",
+        "prediction": "73"
+      },
+      {
+        "reference": "73",
+        "prediction": "T555"
+      },
+      {
+        "reference": "599",
+        "prediction": "34"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "3594",
+        "prediction": "1500"
+      },
+      {
+        "reference": "2274",
+        "prediction": "1500"
+      },
+      {
+        "reference": "5641",
+        "prediction": "B"
+      },
+      {
+        "reference": "61",
+        "prediction": "SC"
+      },
+      {
+        "reference": "5641",
+        "prediction": "B"
+      },
+      {
+        "reference": "61",
+        "prediction": "SC"
+      },
+      {
+        "reference": "8113",
+        "prediction": "KW"
+      },
+      {
+        "reference": "21",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "73",
+        "prediction": "RW7PNP"
+      },
+      {
+        "reference": "599",
+        "prediction": "9239"
+      },
+      {
+        "reference": "9239",
+        "prediction": "K"
+      },
+      {
+        "reference": "599",
+        "prediction": "5474"
+      },
+      {
+        "reference": "5474",
+        "prediction": "GL"
+      },
+      {
+        "reference": "73",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "49"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "559",
+        "prediction": "35"
+      },
+      {
+        "reference": "35",
+        "prediction": "TU"
+      },
+      {
+        "reference": "599",
+        "prediction": "TU"
+      },
+      {
+        "reference": "40",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "599",
+        "prediction": "GJ9"
+      },
+      {
+        "reference": "6679",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "599",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "9714",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "7420",
+        "prediction": "?"
+      },
+      {
+        "reference": "06",
+        "prediction": "ILL"
+      },
+      {
+        "reference": "2097",
+        "prediction": "B"
+      },
+      {
+        "reference": "66",
+        "prediction": "OR"
+      },
+      {
+        "reference": "15",
+        "prediction": "1500"
+      },
+      {
+        "reference": "20",
+        "prediction": "KW"
+      },
+      {
+        "reference": "599",
+        "prediction": "100"
+      },
+      {
+        "reference": "1500",
+        "prediction": "K"
+      },
+      {
+        "reference": "73",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "7606",
+        "prediction": "KW"
+      },
+      {
+        "reference": "36",
+        "prediction": "LAX"
+      },
+      {
+        "reference": "599",
+        "prediction": "4032"
+      },
+      {
+        "reference": "4032",
+        "prediction": "R"
+      },
+      {
+        "reference": "599",
+        "prediction": "6807"
+      },
+      {
+        "reference": "6807",
+        "prediction": "TU"
+      },
+      {
+        "reference": "3568",
+        "prediction": "599"
+      },
+      {
+        "reference": "42",
+        "prediction": "599"
+      },
+      {
+        "reference": "3568",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "599",
+        "prediction": "1500"
+      },
+      {
+        "reference": "18",
+        "prediction": "9T012"
+      },
+      {
+        "reference": "1068",
+        "prediction": "JQ0UM"
+      },
+      {
+        "reference": "599",
+        "prediction": "LS2CM"
+      },
+      {
+        "reference": "599",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "20",
+        "prediction": "AGN"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "F4VAL"
+      },
+      {
+        "reference": "31",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "R"
+      },
+      {
+        "reference": "16",
+        "prediction": "599"
+      },
+      {
+        "reference": "73",
+        "prediction": "TU"
+      },
+      {
+        "reference": "1564",
+        "prediction": "1"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "10",
+        "prediction": "100"
+      },
+      {
+        "reference": "599",
+        "prediction": "R"
+      },
+      {
+        "reference": "1500",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "9979",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "9609"
+      },
+      {
+        "reference": "9069",
+        "prediction": "?"
+      },
+      {
+        "reference": "24",
+        "prediction": "MN"
+      },
+      {
+        "reference": "8958",
+        "prediction": "898"
+      },
+      {
+        "reference": "8958",
+        "prediction": "DAV"
+      },
+      {
+        "reference": "4828",
+        "prediction": "WK1SR"
+      },
+      {
+        "reference": "73",
+        "prediction": "WK1SR"
+      },
+      {
+        "reference": "599",
+        "prediction": "24"
+      },
+      {
+        "reference": "24",
+        "prediction": "K"
+      },
+      {
+        "reference": "599",
+        "prediction": "23"
+      },
+      {
+        "reference": "23",
+        "prediction": "IW9S"
+      },
+      {
+        "reference": "73",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "31"
+      },
+      {
+        "reference": "31",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "11"
+      },
+      {
+        "reference": "11",
+        "prediction": "GL"
+      },
+      {
+        "reference": "73",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "8T905"
+      },
+      {
+        "reference": "599",
+        "prediction": "8"
+      },
+      {
+        "reference": "599",
+        "prediction": "11"
+      },
+      {
+        "reference": "11",
+        "prediction": "WI5XJ"
+      },
+      {
+        "reference": "599",
+        "prediction": "17"
+      },
+      {
+        "reference": "35",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "37"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "4993",
+        "prediction": "CA"
+      },
+      {
+        "reference": "599",
+        "prediction": "49"
+      },
+      {
+        "reference": "49",
+        "prediction": "VA8NMX"
+      },
+      {
+        "reference": "73",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "29"
+      },
+      {
+        "reference": "599",
+        "prediction": "1500"
+      },
+      {
+        "reference": "599",
+        "prediction": "1"
+      },
+      {
+        "reference": "1",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW?"
+      },
+      {
+        "reference": "569",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "GW7LN"
+      },
+      {
+        "reference": "2896",
+        "prediction": "DE"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW"
+      },
+      {
+        "reference": "2896",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "73"
+      },
+      {
+        "reference": "1422",
+        "prediction": "VA"
+      },
+      {
+        "reference": "46",
+        "prediction": "VA"
+      },
+      {
+        "reference": "3320",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "589",
+        "prediction": "K"
+      },
+      {
+        "reference": "60",
+        "prediction": "NR?"
+      },
+      {
+        "reference": "589",
+        "prediction": "K"
+      },
+      {
+        "reference": "60",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "GL"
+      },
+      {
+        "reference": "8",
+        "prediction": "73"
+      },
+      {
+        "reference": "73",
+        "prediction": "ED3TL"
+      },
+      {
+        "reference": "59",
+        "prediction": "599"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "78"
+      },
+      {
+        "reference": "34",
+        "prediction": "NM3R"
+      },
+      {
+        "reference": "569",
+        "prediction": "DG7PY"
+      },
+      {
+        "reference": "78",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "599",
+        "prediction": "2"
+      },
+      {
+        "reference": "2",
+        "prediction": "K"
+      },
+      {
+        "reference": "559",
+        "prediction": "1500"
+      },
+      {
+        "reference": "589",
+        "prediction": "EB5JH"
+      },
+      {
+        "reference": "6356",
+        "prediction": "DE"
+      },
+      {
+        "reference": "4299",
+        "prediction": "429"
+      },
+      {
+        "reference": "2008",
+        "prediction": "GM6S?"
+      },
+      {
+        "reference": "10",
+        "prediction": "JP3MB"
+      },
+      {
+        "reference": "491",
+        "prediction": "IW1MB"
+      },
+      {
+        "reference": "94",
+        "prediction": "GM6S"
+      },
+      {
+        "reference": "73",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW"
+      },
+      {
+        "reference": "21",
+        "prediction": "599"
+      },
+      {
+        "reference": "10",
+        "prediction": "KW"
+      },
+      {
+        "reference": "599",
+        "prediction": "21"
+      },
+      {
+        "reference": "21",
+        "prediction": "IK9HGA"
+      },
+      {
+        "reference": "599",
+        "prediction": "21"
+      },
+      {
+        "reference": "21",
+        "prediction": "IK9HGA"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "6"
+      },
+      {
+        "reference": "6",
+        "prediction": "EG9GNT"
+      },
+      {
+        "reference": "599",
+        "prediction": "6"
+      },
+      {
+        "reference": "35",
+        "prediction": "TU"
+      },
+      {
+        "reference": "579",
+        "prediction": "SDG?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "84",
+        "prediction": "85"
+      },
+      {
+        "reference": "599",
+        "prediction": "890?"
+      },
+      {
+        "reference": "8940",
+        "prediction": "890?"
+      },
+      {
+        "reference": "4917",
+        "prediction": "RICK"
+      },
+      {
+        "reference": "2577",
+        "prediction": "257"
+      },
+      {
+        "reference": "7314",
+        "prediction": "PX"
+      },
+      {
+        "reference": "599",
+        "prediction": "23"
+      },
+      {
+        "reference": "23",
+        "prediction": "R"
+      },
+      {
+        "reference": "559",
+        "prediction": "68"
+      },
+      {
+        "reference": "68",
+        "prediction": "TU"
+      },
+      {
+        "reference": "11",
+        "prediction": "9"
+      },
+      {
+        "reference": "3385",
+        "prediction": "LYNN"
+      },
+      {
+        "reference": "3385",
+        "prediction": "RAY"
+      },
+      {
+        "reference": "4670",
+        "prediction": "TU"
+      },
+      {
+        "reference": "73",
+        "prediction": "M1JRX"
+      },
+      {
+        "reference": "9225",
+        "prediction": "KW"
+      },
+      {
+        "reference": "569",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "322",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "1178",
+        "prediction": "118"
+      },
+      {
+        "reference": "77",
+        "prediction": "98"
+      },
+      {
+        "reference": "2682",
+        "prediction": "872"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "559",
+        "prediction": "KX3LS"
+      },
+      {
+        "reference": "100",
+        "prediction": "1D4BRO"
+      },
+      {
+        "reference": "599",
+        "prediction": "100"
+      },
+      {
+        "reference": "569",
+        "prediction": "3"
+      },
+      {
+        "reference": "3",
+        "prediction": "?"
+      },
+      {
+        "reference": "86",
+        "prediction": "TU"
+      },
+      {
+        "reference": "4302",
+        "prediction": "38"
+      },
+      {
+        "reference": "38",
+        "prediction": "EG6L9"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "5575",
+        "prediction": "I"
+      },
+      {
+        "reference": "28",
+        "prediction": "A"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "73",
+        "prediction": "TU"
+      },
+      {
+        "reference": "634",
+        "prediction": "5T375"
+      },
+      {
+        "reference": "4248",
+        "prediction": "KW"
+      },
+      {
+        "reference": "940",
+        "prediction": "GL"
+      },
+      {
+        "reference": "860",
+        "prediction": "KW"
+      },
+      {
+        "reference": "599",
+        "prediction": "SC"
+      },
+      {
+        "reference": "599",
+        "prediction": "SC"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW4BTK"
+      },
+      {
+        "reference": "599",
+        "prediction": "K"
+      },
+      {
+        "reference": "20",
+        "prediction": "IU4TW"
+      },
+      {
+        "reference": "9095",
+        "prediction": "599"
+      },
+      {
+        "reference": "54",
+        "prediction": "599"
+      },
+      {
+        "reference": "8",
+        "prediction": "KW"
+      },
+      {
+        "reference": "20",
+        "prediction": "KW"
+      },
+      {
+        "reference": "3108",
+        "prediction": "M"
+      },
+      {
+        "reference": "25",
+        "prediction": "WCF"
+      },
+      {
+        "reference": "1917",
+        "prediction": "KW"
+      },
+      {
+        "reference": "33",
+        "prediction": "73"
+      },
+      {
+        "reference": "8793",
+        "prediction": "M"
+      },
+      {
+        "reference": "50",
+        "prediction": "LA"
+      },
+      {
+        "reference": "599",
+        "prediction": "MT"
+      },
+      {
+        "reference": "599",
+        "prediction": "MT"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW"
+      },
+      {
+        "reference": "1500",
+        "prediction": "TU"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "29",
+        "prediction": "20"
+      },
+      {
+        "reference": "599",
+        "prediction": "TU"
+      },
+      {
+        "reference": "29",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "599",
+        "prediction": "?"
+      },
+      {
+        "reference": "65",
+        "prediction": "55"
+      },
+      {
+        "reference": "573",
+        "prediction": "M05A1"
+      },
+      {
+        "reference": "65",
+        "prediction": "GL"
+      },
+      {
+        "reference": "599",
+        "prediction": "TU"
+      },
+      {
+        "reference": "5743",
+        "prediction": "QSL"
+      },
+      {
+        "reference": "73",
+        "prediction": "TEST"
+      },
+      {
+        "reference": "3394",
+        "prediction": "?"
+      },
+      {
+        "reference": "599",
+        "prediction": "50"
+      },
+      {
+        "reference": "833",
+        "prediction": "8333"
+      },
+      {
+        "reference": "599",
+        "prediction": "5T643"
+      },
+      {
+        "reference": "8124",
+        "prediction": "MARY"
+      },
+      {
+        "reference": "1930",
+        "prediction": "FL"
+      },
+      {
+        "reference": "2794",
+        "prediction": "WI"
+      },
+      {
+        "reference": "599",
+        "prediction": "KW"
+      },
+      {
+        "reference": "599",
+        "prediction": "1500"
+      },
+      {
+        "reference": "1500",
+        "prediction": "GL"
+      },
+      {
+        "reference": "579",
+        "prediction": "NR?"
+      },
+      {
+        "reference": "2858",
+        "prediction": "?"
+      },
+      {
+        "reference": "73",
+        "prediction": "DR1CYR"
+      },
+      {
+        "reference": "599",
+        "prediction": "IU"
+      }
+    ],
+    "common_substitutions": {
+      "TEST \u2192 DE": 40,
+      "TEST \u2192 CQ": 34,
+      "599 \u2192 ?": 27,
+      "TU \u2192 TEST": 15,
+      "QSL \u2192 TU": 12,
+      "TU \u2192 QSL": 12,
+      "GL \u2192 TU": 10,
+      "TU \u2192 599": 9,
+      "73 \u2192 GL": 6,
+      "CQ \u2192 TX": 6,
+      "CQ \u2192 CQWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW": 6,
+      "599 \u2192 TU": 5,
+      "K \u2192 KW": 5,
+      "599 \u2192 1500": 5,
+      "K \u2192 TU": 5,
+      "TU \u2192 KW": 5,
+      "R \u2192 599": 5,
+      "TU \u2192 GL": 5,
+      "RJ5MC \u2192 RY5MG": 5,
+      "GL \u2192 TEST": 5
+    }
+  }
+}

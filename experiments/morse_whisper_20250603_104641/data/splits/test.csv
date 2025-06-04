@@ -1,0 +1,11 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration
+42,morse_000042.wav,I0U9 DAN LA,NAQP,exchange,28,contest_poor,5.9031875
+3,morse_000003.wav,DP1JWE 599 71,IARU,exchange,30,contest_poor,8.15575
+38,morse_000038.wav,JL4RF 1B MS,FIELD_DAY,exchange,28,contest_good,6.92975
+16,morse_000016.wav,LW0HIB 599 23,IARU,exchange,33,dx_expedition,7.453625
+73,morse_000073.wav,CQ CQ CQ DE JF7KV JF7KV JF7KV JF7KV DE UA5B1 579 9 K TU 589 25 JF7KV QSL TU TEST UA5B1,CQWW,qso,25,dx_expedition,53.9255625
+33,morse_000033.wav,TEST EC5ZU EC5ZU TEST EC5ZU LARRY ME NM6ZG NM6? NM6? EC5ZU LARRY ME NM6ZG R BOB VA TU QSL TU TEST NM6ZG,NAQP,qso,38,dx_expedition,36.391
+79,morse_000079.wav,LU7PX 599 1500,ARRLDX,exchange,22,contest_moderate,12.4270625
+86,morse_000086.wav,IK3VN 2B KS,FIELD_DAY,exchange,37,clean,5.21875
+90,morse_000090.wav,TEST ND7LW ND7LW TEST ND7LW GI0LUE 3B WNY 6B VA GL QSL TU TEST GI0LUE,FIELD_DAY,qso,15,contest_moderate,60.8561875
+49,morse_000049.wav,TEST F8NBC F8NBC TEST F8NBC 599 78 UC6PQ5 TU 599 2 F8NBC QSL TU TEST UC6PQ5,IARU,qso,34,contest_moderate,33.21225

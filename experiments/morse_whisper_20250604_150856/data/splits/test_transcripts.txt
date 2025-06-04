@@ -1,0 +1,11 @@
+morse_000019.wav|CQ TEST
+morse_000083.wav|CQ CQ CQ
+morse_000096.wav|
+morse_000040.wav|CQ ARRLDX CQ ARRLDX DE F5MS F5MS K
+morse_000052.wav|CQ CQ
+morse_000046.wav|CQ DE DI5FD K
+morse_000006.wav|4A
+morse_000072.wav|CQ DE VO9EZY K VO9EZY
+morse_000076.wav|F8?
+morse_000077.wav|WY5A 599 ?
+morse_000057.wav|CQ DE IK0XV K

@@ -1,0 +1,127 @@
+# Configuration for Contest CW Dataset Generation
+
+# Contest types to include in the dataset
+contest_types:
+  - CQWW          # CQ World Wide DX Contest
+  - CQWPX         # CQ WPX Contest
+  - ARRLDX        # ARRL International DX Contest
+  - FIELD_DAY     # ARRL Field Day
+  - NAQP          # North American QSO Party
+  - SWEEPSTAKES   # ARRL Sweepstakes
+  - SPRINT        # NA Sprint
+  - IARU          # IARU HF Championship
+
+# Speed range in Words Per Minute
+wpm_range: [15, 40]
+
+# Signal conditions to simulate
+conditions:
+  - clean               # Perfect conditions (for baseline)
+  - contest_good        # Good contest conditions (SNR ~20dB)
+  - contest_moderate    # Moderate conditions (SNR ~15dB, some QRM)
+  - contest_poor        # Poor conditions (SNR ~10dB, heavy QRM/QRN)
+  - dx_expedition      # Pileup conditions (weak signal, heavy interference)
+
+# Probability of generating full QSOs vs single transmissions
+qso_probability: 0.3
+
+# Train/validation/test split ratios
+split_ratios: [0.8, 0.1, 0.1]
+
+# Audio parameters
+audio:
+  sample_rate: 16000    # 16kHz for Whisper compatibility
+  tone_freq_range: [600, 800]  # CW tone frequency range in Hz
+
+# Noise and interference parameters
+noise:
+  snr_range: [8, 30]    # Signal-to-noise ratio range in dB
+  qrm_interferers: [0, 5]  # Number of interfering stations
+  qrn_rate: [0.0, 0.5]    # Static crashes per second
+  fading_rate: [0.1, 0.5]  # QSB fading rate in Hz
+  fading_depth: [0.1, 0.7]  # Maximum fade depth
+  drift_max: [0, 100]      # Maximum frequency drift in Hz
+
+# CW timing variations (human-like imperfections)
+timing:
+  variation_percent: [2, 8]  # Timing variation percentage
+  weight_ratio: 3           # Dash/dot weight ratio (normally 3:1)
+
+# Dataset composition weights
+composition_weights:
+  countries:
+    USA: 30
+    GERMANY: 20
+    JAPAN: 15
+    ENGLAND: 15
+    CANADA: 10
+    ITALY: 10
+    RUSSIA: 10
+    SPAIN: 5
+    FRANCE: 5
+    BRAZIL: 5
+    AUSTRALIA: 5
+    ARGENTINA: 5
+  
+  # Relative weights for different sample types
+  sample_types:
+    full_qso: 30
+    cq_call: 20
+    exchange_only: 25
+    partial_copy: 15
+    repeat_request: 10
+
+# Special callsign features
+callsigns:
+  include_portable: 0.1    # Fraction of portable/mobile stations
+  include_special: 0.05    # Fraction of special event/contest stations
+
+# Prosigns and abbreviations
+prosigns:
+  use_abbreviations: 0.3   # Probability of using CW abbreviations
+  common_prosigns:
+    - AR    # End of message (+)
+    - AS    # Wait
+    - BK    # Break
+    - KN    # Go ahead, specific station
+    - SK    # End of contact
+    - BT    # Separator (=)
+
+# Advanced features for state-of-the-art performance
+advanced_features:
+  # Simulate real propagation effects
+  multipath: true
+  multipath_delays: [0, 5]  # ms
+  
+  # AGC effects
+  agc_enabled: true
+  agc_attack: 0.01    # seconds
+  agc_release: 0.5    # seconds
+  
+  # Filter characteristics
+  filter_types:
+    - cw_narrow       # 250 Hz bandwidth
+    - cw_wide         # 500 Hz bandwidth
+  
+  # QSB (fading) patterns
+  fading_types:
+    - slow            # HF propagation
+    - fast            # Flutter (aircraft, aurora)
+    - selective       # Multipath fading
+
+# Evaluation metrics
+evaluation:
+  metrics:
+    - wer             # Word Error Rate
+    - cer             # Character Error Rate
+    - callsign_accuracy  # Specific to amateur radio
+    - exchange_accuracy  # Contest exchange accuracy
+  
+  # Specific elements to track
+  track_elements:
+    - callsigns
+    - rst_reports
+    - serial_numbers
+    - grid_squares
+    - states_provinces
+    - zones 

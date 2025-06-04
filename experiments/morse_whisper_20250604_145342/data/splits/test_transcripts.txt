@@ -1,0 +1,11 @@
+morse_000080.wav|CQ TEST CQ TEST DE VK9BR VK9BR K
+morse_000039.wav|JP2VW
+morse_000027.wav|IU5FA
+morse_000044.wav|K6HQF GJ6DM
+morse_000003.wav|JO0OO 599 KW JN6XP
+morse_000065.wav|CQ DE DM0QXG
+morse_000077.wav|CQ DE VO1DHN K
+morse_000038.wav|QRZ?
+morse_000015.wav|CQ CQ
+morse_000024.wav|EC? VK0WHHA FRANK ?
+morse_000098.wav|

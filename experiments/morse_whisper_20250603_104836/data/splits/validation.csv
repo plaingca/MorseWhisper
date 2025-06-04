@@ -1,0 +1,11 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration
+53,morse_000053.wav,CQ CQ CQ DE RQ4OEP RQ4OEP RQ4OEP RQ4OEP 599 23 DC4QT 599 81 GL 73 GL DC4QT TEST,IARU,qso,32,contest_poor,39.1075625
+4,morse_000004.wav,UB6EH 599 ?,CQWW,partial,36,dx_expedition,5.2595
+76,morse_000076.wav,IZ2JVK 579 KW,ARRLDX,exchange,29,contest_good,7.7861875
+10,morse_000010.wav,RN4PKO 6867 A 42 WTX,SWEEPSTAKES,exchange,34,dx_expedition,9.74575
+15,morse_000015.wav,JL5TRB 599 ?,ARRLDX,partial,40,dx_expedition,5.706375
+98,morse_000098.wav,RA0IQC SAM ME,NAQP,exchange,18,contest_good,9.9336875
+94,morse_000094.wav,CQ CQ CQ DE DO3QJJ DO3QJJ DO3QJJ,SPRINT,cq,27,contest_moderate,20.5051875
+77,morse_000077.wav,F4AXY KEN IL,NAQP,exchange,28,contest_poor,6.1126875
+17,morse_000017.wav,CQ CQ CQ DE DA6OK DA6OK DA6OK,FIELD_DAY,cq,36,clean,12.6155
+92,morse_000092.wav,AZ?,CQWW,partial,29,contest_good,2.0653125

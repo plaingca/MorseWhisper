@@ -1,0 +1,12 @@
+id,audio_file,text,contest_type,sample_type,wpm,condition,duration,is_noise_only
+80,morse_000080.wav,CQ TEST CQ TEST DE VK9BR VK9BR K,CQWW,qso,39,contest_poor,12.915125,False
+39,morse_000039.wav,JP2VW,CQWW,short,17,dx_expedition,7.17075,False
+27,morse_000027.wav,IU5FA,IARU,partial,29,contest_good,3.5124375,False
+44,morse_000044.wav,K6HQF GJ6DM,CQWPX,partial_qso,22,contest_moderate,9.213,False
+3,morse_000003.wav,JO0OO 599 KW JN6XP,ARRLDX,partial_qso,33,dx_expedition,11.3718125,False
+65,morse_000065.wav,CQ DE DM0QXG,NAQP,partial_qso,19,contest_poor,11.5350625,False
+77,morse_000077.wav,CQ DE VO1DHN K,FIELD_DAY,partial_qso,25,contest_good,10.212875,False
+38,morse_000038.wav,QRZ?,NAQP,short,29,dx_expedition,4.500625,False
+15,morse_000015.wav,CQ CQ,IARU,cq,18,contest_moderate,6.3213125,False
+24,morse_000024.wav,EC? VK0WHHA FRANK ?,NAQP,multi_tx,22,dx_expedition,15.090375,False
+98,morse_000098.wav,,NOISE,noise_only,0,clean,17.478875,True

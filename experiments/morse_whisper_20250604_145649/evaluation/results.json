@@ -1,0 +1,127 @@
+{
+  "overall_wer": 1.6666666666666667,
+  "overall_cer": 5.676056338028169,
+  "noise_accuracy": 0.0,
+  "num_samples": 7,
+  "num_morse_samples": 6,
+  "num_noise_samples": 1,
+  "error_analysis": {
+    "by_contest_type": {
+      "IARU": {
+        "avg_wer": 1.0,
+        "count": 2
+      },
+      "NAQP": {
+        "avg_wer": 8.0,
+        "count": 1
+      },
+      "ARRLDX": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "CQWPX": {
+        "avg_wer": 4.5,
+        "count": 2
+      },
+      "NOISE": {
+        "avg_wer": 1.0,
+        "count": 1
+      }
+    },
+    "by_wpm": {
+      "35-39": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "25-29": {
+        "avg_wer": 4.5,
+        "count": 2
+      },
+      "30-34": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "15-19": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "0-4": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "20-24": {
+        "avg_wer": 8.0,
+        "count": 1
+      }
+    },
+    "by_condition": {
+      "clean": {
+        "avg_wer": 4.5,
+        "count": 2
+      },
+      "contest_moderate": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "contest_poor": {
+        "avg_wer": 1.0,
+        "count": 1
+      },
+      "dx_expedition": {
+        "avg_wer": 4.5,
+        "count": 2
+      },
+      "contest_good": {
+        "avg_wer": 1.0,
+        "count": 1
+      }
+    },
+    "by_duration": {
+      "0-29s": {
+        "avg_wer": 3.0,
+        "count": 7
+      }
+    },
+    "callsign_errors": [
+      {
+        "reference": "I7?",
+        "prediction": "I'll"
+      },
+      {
+        "reference": "NL3ND",
+        "prediction": "\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\ufffd"
+      }
+    ],
+    "number_errors": [
+      {
+        "reference": "73",
+        "prediction": "I'll"
+      }
+    ],
+    "common_substitutions": {
+      "CQ \u2192 \u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\ufffd": 2,
+      "CQ \u2192 \u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0\u0dc0": 1,
+      "I7? \u2192 I'll": 1,
+      "NL3ND \u2192 \u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\u10da\ufffd": 1,
+      "73 \u2192 I'll": 1
+    }
+  },
+  "chunking_analysis": {
+    "chunked": {
+      "count": 0,
+      "avg_wer": 0,
+      "avg_duration": 0
+    },
+    "non_chunked": {
+      "count": 7,
+      "avg_wer": 3.0,
+      "avg_duration": 7.5609464285714285
+    },
+    "by_duration": {
+      "0-30s": {
+        "count": 7,
+        "avg_wer": 3.0
+      }
+    }
+  }
+}

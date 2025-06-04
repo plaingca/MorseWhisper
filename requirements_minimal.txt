@@ -1,0 +1,20 @@
+# Minimal requirements for Python 3.13
+# Note: Some features might not work until packages are updated
+
+# Core dependencies that should work with Python 3.13
+numpy>=2.0.0
+scipy>=1.14.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+
+# These might have issues with Python 3.13:
+# - openai-whisper (use whisper from GitHub instead)
+# - torch/torchaudio (might need nightly builds)
+# - transformers (might need latest version)
+
+# Try installing these separately:
+# pip install torch --index-url https://download.pytorch.org/whl/nightly/cpu
+# pip install git+https://github.com/openai/whisper.git
+# pip install transformers accelerate datasets 

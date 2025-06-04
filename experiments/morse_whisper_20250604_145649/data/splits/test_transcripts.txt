@@ -1,0 +1,7 @@
+morse_000020.wav|CQ DE NS9D K NS9D DE IK2ES 599 9 TU
+morse_000008.wav|I7?
+morse_000018.wav|NL3ND 599 KW
+morse_000004.wav|CQ DE PR0DI5 K
+morse_000001.wav|CQ DE
+morse_000049.wav|
+morse_000043.wav|73

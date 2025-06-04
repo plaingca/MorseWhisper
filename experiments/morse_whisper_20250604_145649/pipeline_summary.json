@@ -1,0 +1,8 @@
+{
+  "experiment_dir": "experiments\\morse_whisper_20250604_145649",
+  "config": "configs\\contest_cw.yaml",
+  "num_samples": 50,
+  "model_name": "openai/whisper-small",
+  "elapsed_time_minutes": 1.2690627932548524,
+  "timestamp": "2025-06-04T14:58:05.364675"
+}
